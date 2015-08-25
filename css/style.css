@@ -243,14 +243,20 @@ a, a:visited, a:focus, a:active, a:hover{
                  url('../images/separator.png') no-repeat center bottom;
 }
 
-.braga2014#promo {
-          padding-left:340px;
-          background:url('../images/rg-braga2014.png') no-repeat 0 10px,
-                         url('../images/separator.png') no-repeat center bottom;
-        }
+.braga#promo {
+  padding-left: 340px;
+  background: url('../images/rg-braga2014.png') no-repeat 0 10px;
+}
 
-.braga2014#promo h1 {
- background:url('../images/braga/braga2014/rg-header-Braga-12Oct.png') no-repeat left top;
+.braga#promo h1 {
+  text-indent: initial;
+  color: #d3360b;
+  font-size: 60px;
+}
+
+.braga #share {
+  display: inline-block;
+  margin-bottom: 25px;
 }
 
 .zagreb#promo {
@@ -832,6 +838,18 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   padding-left:340px;
 }
 
+.saarbruecken_page h2 {
+  font-weight: bold;
+  color: #d3360b;
+  margin-top: 0 !important;
+}
+
+.saarbruecken_page div.sign_up {
+  text-align: center;
+  margin-bottom: 28px;
+  font-size: 35px;
+}
+
 .lodz2015 .coaches .grid_3 {
   width: 205px;
   height: 75px;
@@ -1303,6 +1321,12 @@ h4.warsaw {
 .dallas#promo {
   padding-left:340px;
   background:url('../images/rg-dallas.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
+.maceio#promo{
+  padding-left:340px;
+  background:url('../images/rg-maceio.jpg') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -2124,28 +2148,28 @@ h2 a {
 }
 
 article.clients {
-	float: left;
-	display: table-cell;
-	vertical-align: middle;
-	text-align: center;
-	width: 203px;
-	height: 150px;
-	margin-right: 15px;
-	margin-bottom: 15px;
-	border: 1px solid #4d4d4d;
-	-webkit-border-radius: 3px;
-	   -moz-border-radius: 3px;
-	             border-radius: 3px;
+  float: left;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: 203px;
+  height: 150px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #4d4d4d;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+               border-radius: 3px;
 }
 
 article.clients * {
-	vertical-align: middle;
+  vertical-align: middle;
 }
 
 article.clients span {
-	display: inline-block;
-	height: 100%;
-	width: 1px;
+  display: inline-block;
+  height: 100%;
+  width: 1px;
 }
 
 .clients a {border: 0px !important;}
@@ -2364,15 +2388,15 @@ a:hover.bratislava2014-a {
 }
 
 .novisad#promo {
-	padding-left:345px;
+  padding-left:345px;
     background:url('../images/rg-novisad.jpg') no-repeat 0 90px,
-				url('../images/separator.png') no-repeat center bottom;
+        url('../images/separator.png') no-repeat center bottom;
 }
 
 .novisad2#promo {
-	padding-left:345px;
+  padding-left:345px;
     background:url('../images/novisad/workshop.jpg') no-repeat 0 90px,
-				url('../images/separator.png') no-repeat center bottom;
+        url('../images/separator.png') no-repeat center bottom;
 }
 
 .barcelona#promo {
@@ -2391,13 +2415,13 @@ a:hover.bratislava2014-a {
 .grancanaria#promo {
   padding-left:340px;
   background:url('../images/rg-grancanaria.jpeg') no-repeat 0 10px, url('../images/separator.png') no-repeat center bottom;
-	background-size: 320px;
+  background-size: 320px;
 }
 
 .bialystok#promo {
   padding-left:340px;
   background:url('../images/bialystok/rg-bialystok.jpg') no-repeat 0 10px, url('../images/separator.png') no-repeat center bottom;
-	background-size: 320px;
+  background-size: 320px;
 }
 
 .bialystok #apply-link {
@@ -2649,8 +2673,8 @@ div.bta-sponsors-top{ margin-top: 50px;}
 }
 
 .toyama-2015-8#promo {
-	padding-left:420px;
+  padding-left:420px;
         background:url('../images/logo_toyama_first.png') no-repeat 0 10px,
-	url('../images/separator.png') no-repeat center bottom;
+  url('../images/separator.png') no-repeat center bottom;
 }
 
