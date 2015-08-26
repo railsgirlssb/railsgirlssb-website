@@ -1,7 +1,7 @@
 ---
 applications:
 - name: railsgirlssb-green
-  memory: 256M
+  memory: 512M
   instances: 2
   buildpack: http://github.com/cloudfoundry/ruby-buildpack.git#v1.3.1
   command: bundle exec unicorn -p $PORT
@@ -12,7 +12,7 @@ applications:
     RACK_ENV: production
     STACK: cedar
 - name: railsgirlssb-blue
-  memory: 256M
+  memory: 512M
   instances: 2
   buildpack: http://github.com/cloudfoundry/ruby-buildpack.git#v1.3.1
   command: bundle exec unicorn -p $PORT
