@@ -14,13 +14,14 @@ class HomeController < ApplicationController
   private
 
   def apply_locale
-    return if params[:lang].blank?
+    old_locale = I18n.locale
 
-    params[:lang] = :de if ['de', 'en'].exclude?(params[:lang].to_s)
-    # I18n.locale = params[:lang]
-    # TODO: write locale in session for each user
+    I18n.locale = params[:lang] || session[:lang] || I18n.default_locale
+    session[:lang] = I18n.locale
 
-    redirect_to root_path
+    if I18n.locale != old_locale
+      redirect_to root_path
+    end
   end
 
 end
