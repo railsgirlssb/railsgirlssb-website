@@ -1,23 +1,152 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  layout:
+    head:
+      title: Rails Girls Saarbrücken, 6-7 November 2015
+      description: 'Rails Girls goes Saarbrücken, 6-7 November 2015: join the two-day crash-course to the exciting world of building web applications with Ruby on Rails.'
+
+    header:
+      navigation:
+        german: Deutsch
+        legal_info: Legal Info
+
+    footer:
+      content: 2015, Rails Girls Saarbrücken. %{contact} or follow us on %{twitter} and %{facebook}.
+      contact_us: Contact us
+      slogan: Get excited and make things!
+
+  home:
+    index:
+      header: Rails Girls Saarbrücken
+      sub_header: 6-7 November 2015
+
+      welcome:
+        header: Welcome!
+        content: Rails Girls comes to Saarbrücken! During the free two-day workshop we'll dive into the magical world of Ruby on Rails.
+        applications_status: Applications are open until October 26th.
+        sign_up: Sign up here!
+        follow_us: Follow us on %{twitter} and %{facebook}.
+        twitter_share: Rails Girls Saarbrücken, 6-7 November 2015 - apply now! Follow them at @RailsGirlsSB
+
+      features:
+        learn:
+          header: You learn
+          content: designing, prototyping and coding with the help from our coaches.
+        need:
+          header: You need
+          content: your own laptop, curiosity and a sprinkle of imagination!
+        help:
+          header: Want to help?
+          content: We are looking for volunteers and Rails coaches.
+          contact:
+            header: Email us
+            subject: Be a volunteer or coach
+
+      schedule:
+        day_one:
+          header: Friday 6th November
+          installation_party:
+            time: 17:00 - 20:00
+            header: Installation party
+            content: Get know the attendees a little bit before hand. Bring your laptop if you can, so we can install Ruby on Rails for you.
+            where: 'Where:'
+          coach_dinner:
+            time: 20.00 -
+            header: Coach dinner
+            content: "All of the coaches are welcome to our coach dinner, where we'll go through the program for the next day."
+        day_two:
+          header: Saturday 7th November
+          registration:
+            time: 09:00 - 10:00
+            header: Registration, coffee and installation fest
+            content: During the morning we’ll install Ruby on Rails on your computer.
+          welcome:
+            time: 10:00 - 10:15
+            header: Welcome
+            content: Outline of the day &amp; word from sponsors
+          design_workshop:
+            time: 10:20 - 10:45
+            header: Designing your web app -workshop
+          try_ruby:
+            time: 10:50 - 11:10
+            content: Let's get coding!
+          workshop:
+            time: 11:10 - 13:00
+            header: WORKSHOP
+            content: Jumpstart your first web application
+          lunch:
+            time: 13:00 - 13:30
+            header: Lunch
+          bentobox:
+            time: 13.30- 13:45
+            header: Bentobox - Understanding Web Apps
+            content: Recap of what we’ve learned and how it all fits together.
+          lightning_talks:
+            time: 13:45 - 14:30
+            header: Lightning talks from coaches
+          workshop_extension:
+            time: 14:30 - 16:30
+            header: WORKSHOP
+            content: Extend your application.
+          afterparty:
+            time: 20:00 -
+            header: Afterparty
+            content: Open for everyone, meet cool people interested in tech.
+
+      information:
+        header: Information
+        applications_open:
+          header: 'Applications open:'
+          content: now
+          sign_up: Sign up here!
+        application_deadline:
+          header: 'Application deadline:'
+          content: October 26th
+        acceptances_informed:
+          header: 'Acceptances informed:'
+          content: Shortly after the application deadline
+        location:
+          header: 'Location:'
+          map: See map
+
+        partners:
+          header: Partners
+          content: Rails Girls Saarbrücken is co-organized with our awesome partners.
+          want_to_help: Want to help? We're looking for partners & sponsors for the non-profit event!
+          contact:
+            header: Email us
+            subject: Be a partner or sponsor
+          descriptions:
+            avarteq: is a IT agency providing services related to web development and hosting.
+
+        faq:
+          header: FAQ
+          costs:
+            header: How much does the workshop cost?
+            content: "Nothing, it's free! You just need to be excited!"
+          target_audience:
+            header: Who is this aimed for?
+            content: "Women of any age with basic knowledge of working with a computer. We’ve had people of all ages taking part. Most of the speeches are given in english, but small group work is done in german. Please bring your laptop."
+          men_attending:
+            header: Can men attend?
+            content: Yes, but you need to be accompanied by an interested lady. Also, girls are given a priority.
+          want_to_help:
+            header: I know how to program - How can I help?
+            content: We’re also looking for people to be coaches. We’ll have a two-three hour workshop before the event to walk you through the curriculum.
+            contact:
+              header: Email us
+              subject: Be a coach
+
+        sign_up: Want to join us? Sign up here!
+
+      team:
+        header: The team
+        organizer_and_coach:
+          female: organizer and coach
+          male: organizer and coach
+        coach: coach
+
+      how_to_get_there:
+        header: How to get there?
+        sub_header: Location
+        content: 'Rails Girls Saarbrücken is going to be at:'
+        google_maps: You can also check it on %{google_maps}.

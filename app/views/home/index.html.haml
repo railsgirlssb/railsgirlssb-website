@@ -1,0 +1,242 @@
+#container.container_12.page.clearfix.saarbruecken_page
+  .grid_12.omega.alpha
+
+    #promo.new.saarbruecken
+      %h1
+        = t('.header')
+        %small= t('.sub_header')
+
+      %h2= t('.welcome.header')
+      %p= t('.welcome.content')
+      %p
+        %b
+          = t('.welcome.applications_status')
+          = link_to t('.welcome.sign_up'), 'https://railsgirlssb.wufoo.com/forms/anmeldung-railsgirls-saarbracken-67-november-2015/', target: '_blank'
+      %p= t('.welcome.follow_us', twitter: link_to('Twitter', 'http://twitter.com/railsgirlssb', target: '_blank'),
+facebook: link_to('Facebook', 'https://www.facebook.com/railsgirlssb', target: '_blank')).html_safe
+
+      #share
+        %div
+          %div{ style: 'margin: 0 15px 0 0;' }
+            = link_to 'Tweet', 'http://twitter.com/share', class: 'twitter-share-button', data: { url: '', text: t('.welcome.twitter_share'), count: 'horizontal', via: 'railsgirls', related: 'railsgirls' }
+            %script{ type: 'text/javascript', src: 'http://platform.twitter.com/widgets.js' }
+
+            / #fb-root
+            /   %script{ src: 'http://connect.facebook.net/en_US/all.js#appId=910214919071930&amp;xfbml=1' }
+            /   %fb:like{ href: '', layout: 'button_count', send: 'true', width: '160', show_faces: 'true', font: '' }
+
+    #features
+      .grid_4.alpha.feature
+        %p
+          %strong= t('.features.learn.header')
+          = t('.features.learn.content')
+
+      .grid_4.feature
+        %p
+          %strong= t('.features.need.header')
+          = t('.features.need.content')
+
+      .grid_4.omega.feature
+        %p
+          %strong= t('.features.help.header')
+          = t('.features.help.content')
+          = mail_to 'railsgirlssb@gmail.com', t('.features.help.contact.header'), subject: t('.features.help.contact.subject'), encode: 'javscript'
+
+    %hr
+
+    #schedule.grid_6.alpha
+      %h2= t('.schedule.day_one.header')
+
+      %table
+        %tbody
+          %tr
+            %th= t('.schedule.day_one.installation_party.time')
+            %td
+              %h4= t('.schedule.day_one.installation_party.header')
+              = t('.schedule.day_one.installation_party.content')
+              %br
+              %strong= t('.schedule.day_one.installation_party.where')
+              Science Park 2, 66123
+          %tr
+            %th= t('.schedule.day_one.coach_dinner.time')
+            %td
+              %h4= t('.schedule.day_one.coach_dinner.header')
+              = t('.schedule.day_one.coach_dinner.content')
+
+      %hr
+
+      %h2= t('.schedule.day_two.header')
+
+      %table
+        %tbody
+          %tr
+            %th= t('.schedule.day_two.registration.time')
+            %td
+              %h4= t('.schedule.day_two.registration.header')
+              = t('.schedule.day_two.registration.content')
+
+          %tr
+            %th= t('.schedule.day_two.welcome.time')
+            %td
+              %h4= t('.schedule.day_two.welcome.header')
+              = t('.schedule.day_two.welcome.content')
+
+          %tr
+            %th= t('.schedule.day_two.design_workshop.time')
+            %td
+              %h4= t('.schedule.day_two.design_workshop.header')
+
+          %tr
+            %th= t('.schedule.day_two.try_ruby.time')
+            %td
+              %h4= link_to 'Tryruby.org', 'http://www.tryruby.org', target: '_blank'
+              %strong= t('.schedule.day_two.try_ruby.content')
+
+          %tr
+            %th= t('.schedule.day_two.workshop.time')
+            %td
+              %h4= t('.schedule.day_two.workshop.header')
+              = t('.schedule.day_two.workshop.content')
+
+          %tr
+            %th= t('.schedule.day_two.lunch.time')
+            %td
+              %h4= t('.schedule.day_two.lunch.header')
+
+          %tr
+            %th= t('.schedule.day_two.bentobox.time')
+            %td
+              %h4= t('.schedule.day_two.bentobox.header')
+              = t('.schedule.day_two.bentobox.content')
+
+          %tr
+            %th= t('.schedule.day_two.lightning_talks.time')
+            %td
+              %h4
+                - if I18n.locale == :en
+                  = t('.schedule.day_two.lightning_talks.header')
+                  = t('.schedule.day_two.lightning_talks.content')
+                - else
+                  = link_to t('.schedule.day_two.lightning_talks.header'), 'https://de.wikipedia.org/wiki/Lightning_Talk', target: '_blank'
+                  = t('.schedule.day_two.lightning_talks.content')
+
+          %tr
+            %th= t('.schedule.day_two.workshop_extension.time')
+            %td
+              %h4= t('.schedule.day_two.workshop_extension.header')
+              = t('.schedule.day_two.workshop_extension.content')
+
+          %tr
+            %th= t('.schedule.day_two.afterparty.time')
+            %td
+              %h4= t('.schedule.day_two.afterparty.header')
+              = t('.schedule.day_two.afterparty.content')
+
+
+    #information_block.grid_5.push_1.omega.side
+      #information
+        %h3= t('.information.header')
+
+        %p
+          %strong= t('.information.applications_open.header')
+          = t('.information.applications_open.content')
+          = link_to t('.information.applications_open.sign_up'), 'https://railsgirlssb.wufoo.com/forms/apply-for-railsgirls-saarbracken-67-november-2015/', target: '_blank'
+          %br
+
+          %strong= t('.information.application_deadline.header')
+          = t('.information.application_deadline.content')
+          %br
+
+          %strong= t('.information.acceptances_informed.header')
+          = t('.information.acceptances_informed.content')
+
+        %p
+          %strong= t('.information.location.header')
+          Science Park 2, 66123 Saarbrücken
+          = link_to t('.information.location.map'), '#map'
+
+      #partners
+        %h3= t('.information.partners.header')
+        %p= t('.information.partners.content')
+        %p
+          = t('.information.partners.want_to_help')
+          = mail_to 'railsgirlssb@gmail.com', t('.information.partners.contact.header'), subject: t('.information.partners.contact.subject'), encode: 'javscript'
+        %p
+          = link_to image_tag('avarteq.png', alt: 'Avarteq', style: 'width: 200px;'), 'http://www.avarteq.de', style: 'float:right; margin:0 0 0; border:0;'
+          = link_to 'Avarteq', 'http://www.avarteq.de'
+          = t('.information.partners.descriptions.avarteq')
+
+      %hr
+
+      #faq
+        %h3= t('.information.faq.header')
+
+        %p
+          %strong= t('.information.faq.costs.header')
+          = t('.information.faq.costs.content')
+
+        %p
+          %strong= t('.information.faq.target_audience.header')
+          = t('.information.faq.target_audience.content')
+
+        %p
+          %strong= t('.information.faq.men_attending.header')
+          = t('.information.faq.men_attending.content')
+
+        %p
+          %strong= t('.information.faq.want_to_help.header')
+          = t('.information.faq.want_to_help.content')
+          = mail_to 'railsgirlssb@gmail.com', t('.information.faq.want_to_help.contact.header'), subject: t('.information.faq.want_to_help.contact.subject'), encode: 'javscript'
+
+    #sign_up
+      .grid_12.sign_up
+        = link_to t('.information.sign_up'), 'https://railsgirlssb.wufoo.com/forms/anmeldung-railsgirls-saarbracken-67-november-2015/', target: '_blank'
+
+    %hr
+
+    #team.coaches
+      %h2= t('.team.header')
+
+      = link_to 'https://twitter.com/walkertowski', target: '_blank', class: 'grid_3' do
+        = image_tag 'ruby-100.png'
+        Corinna Wiesner
+        %br
+        = t('.team.organizer_and_coach.female')
+        %small= '@walkertwowski'
+
+      = link_to 'https://twitter.com/gogolok', target: '_blank', class: 'grid_3' do
+        = image_tag 'ruby-101.png'
+        Robert Gogolok
+        %br
+        = t('.team.organizer_and_coach.male')
+        %small= '@gogolok'
+
+      = link_to 'https://twitter.com/lnxbil', target: '_blank', class: 'grid_3' do
+        = image_tag 'ruby-101.png'
+        Andreas Steinel
+        %br
+        = t('.team.coach')
+        %small= '@lnxbil'
+
+    %hr
+
+    #map
+      .grid_12.alpha.omega
+        %h2= t('.how_to_get_there.header')
+        .grid_4.alpha
+          %h3= t('.how_to_get_there.sub_header')
+
+          %div
+            %p
+              = t('.how_to_get_there.content')
+              %br
+              %strong
+              Science Park 2
+              %br
+              66123 Saarbrücken
+
+            %p
+              = t('.how_to_get_there.google_maps', google_maps: link_to('Google Maps', 'https://www.google.de/maps/place/Avarteq+GmbH/@49.256197,7.038519,3205m/data=!3m1!1e3!4m2!3m1!1s0x0:0x522f0a178689cd08!6m1!1e1', target: '_blank')).html_safe
+
+        .grid_8.omega
+          %iframe{ src: 'https://www.google.de/maps/embed?pb=!1m18!1m12!1m3!1d8381.64042250857!2d7.037902605609996!3d49.25651765786278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4795b65f7a2346b5%3A0x522f0a178689cd08!2sAvarteq+GmbH!5e1!3m2!1sen!2sde!4v1440404979117', width: '600', height: '450', frameborder: '0', style: 'border: 0;', allowfullscreen: '' }

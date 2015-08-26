@@ -1,0 +1,153 @@
+de:
+  layout:
+    head:
+      title: Rails Girls Saarbrücken, 6-7 November 2015
+      description: 'Rails Girls in Saarbrücken, 6-7 November 2015: Mach beim zweitägigen Crashkurs in eine aufregende Welt der Erstellungen von Webapplikation mit Ruby on Rails mit.'
+
+    header:
+      navigation:
+        english: English
+        legal_info: Impressum
+
+    footer:
+      content: 2015, Rails Girls Saarbrücken. %{contact} oder folge uns auf %{twitter} and %{facebook}.
+      contact_us: Kontaktiere uns
+      slogan: Get excited and make things!
+
+  home:
+    index:
+      header: Rails Girls Saarbrücken
+      sub_header: 6-7 November 2015
+
+      welcome:
+        header: Willkommen!
+        content: Rails Girls kommt nach Saarbrücken! Im zweitägigen Workshop tauchen wir in die magische Welt von Ruby on Rails ein.
+        applications_status: Anmeldeschluss ist der 26. Oktober.
+        sign_up: Melde dich hier an!
+        follow_us: Folge uns auf %{twitter} und %{facebook}.
+        twitter_share: Rails Girls Saarbrücken, 6-7 November 2015 - melde dich jetzt an! Folge ihnen auf @RailsGirlsSB
+
+      features:
+        learn:
+          header: Du lernst
+          content: mit der Hilfe unserer Coaches eine Applikation zu entwerfen, gestalten und programmieren.
+        need:
+          header: Du brauchst
+          content: deinen eigenen Laptop, Neugier und einen Hauch von Fantasie!
+        help:
+          header: Willst du helfen?
+          content: Wir suchen Freiwillige und Rails Coaches.
+          contact:
+            header: Schreibe uns
+            subject: Freiwilliger oder Coach sein
+
+      schedule:
+        day_one:
+          header: Freitag 6. November
+          installation_party:
+            time: 17:00 - 20:00
+            header: Installationsparty
+            content: Lern die Teilnehmer im Voraus kennen.. Bring, falls möglich, Deinen Laptop mit, so das wir Dir Ruby on Rails installieren können.
+            where: 'Wo:'
+          coach_dinner:
+            time: 20.00 -
+            header: Coach dinner
+            content: Alle Coaches sind willkommen zu unserem Abendessen. Wir gehen das Programm für den nächsten Tag durch.
+        day_two:
+          header: Samstag 7. November
+          registration:
+            time: 09:00 - 10:00
+            header: Registrierung und Installationsfest
+            content: Morgens installieren wir Dir Ruby on Rails auf deinem Computer.
+          welcome:
+            time: 10:00 - 10:15
+            header: Willkommen
+            content: Ausblick auf den Tag und Begrüßung von den Sponsoren
+          design_workshop:
+            time: 10:20 - 10:45
+            header: Deine App gestalten -Workshop
+          try_ruby:
+            time: 10:50 - 11:10
+            content: Let's get coding!
+          workshop:
+            time: 11:10 - 13:00
+            header: WORKSHOP
+            content: Wir bauen unsere erste Webanwendung.
+          lunch:
+            time: 13:00 - 13:30
+            header: Mittagessen
+          bentobox:
+            time: 13.30- 13:45
+            header: Bentobox - Web Apps verstehen
+            content: Rückblick auf das gelernte und wie alles zusammen passt.
+          lightning_talks:
+            time: 13:45 - 14:30
+            header: Lightning talks
+            content: von den Coaches
+          workshop_extension:
+            time: 14:30 - 16:30
+            header: WORKSHOP
+            content: Erweitere Deine Anwendung.
+          afterparty:
+            time: 20:00 -
+            header: Afterparty
+            content: OFFEN FÜR JEDERMANN/-FRAU, treffe interessante Leute, die sich für Technik interessieren
+
+      information:
+        header: Informationen
+        applications_open:
+          header: 'Anmeldebeginn:'
+          content: jetzt
+          sign_up: Melde dich hier an!
+        application_deadline:
+          header: 'Anmeldeschluss:'
+          content: 26. Oktober
+        acceptances_informed:
+          header: 'Anmeldebestätigung:'
+          content: Kurz nach dem Anmeldeschluss
+        location:
+          header: 'Standort:'
+          map: Siehe Karte
+
+        partners:
+          header: Partner
+          content: Rails Girls Saarbrücken wird mit unseren großartigen Partnern mitorganisiert.
+          want_to_help: Willst du helfen? Wir suchen nach Partnern und Sponsoren für unser gemeinnütziges Event!
+          contact:
+            header: Schreibe uns
+            subject: Partner or Sponsor sein
+          descriptions:
+            avarteq: ist eine IT-Agentur für Webentwicklungen und Hosting.
+
+        faq:
+          header: FAQ
+          costs:
+            header: Wie viel kostet der Workshop?
+            content: Nichts, er ist kostenlos! Du musst dich nur darauf freuen!
+          target_audience:
+            header: Für wen ist der Workshop gemacht?
+            content: Er steht allen Mädchen und Frauen ab 16 Jahren offen - egal ob Schülerin, Studentin, Auszubildende, Berufstätige, .... Für den Workshop brauchst Du keine Vorkenntnisse. Bitte bringe deinen Laptop mit.
+          men_attending:
+            header: Können Männer auch kommen?
+            content: Ja, aber sie müssen von einer Teilnehmerin begleitet werden. Frauen werden bevorzugt aufgenommen.
+          want_to_help:
+            header: Ich kann programmieren - Wie kann ich helfen?
+            content: Wir suchen auch Coaches. Wir haben vor dem Event einen 2-3 stündigen Workshop zum Durchgehen des Ablaufs.
+            contact:
+              header: Schreibe uns
+              subject: Coach sein
+
+        sign_up: Willst du mitmachen? Melde dich hier an!
+
+      team:
+        header: Das Team
+        organizer_and_coach:
+          female: Organisatorin, Coach
+          male: Organisator, Coach
+        coach: coach
+
+      how_to_get_there:
+        header: Wie komme ich zum Event?
+        sub_header: Standort
+        content: 'Rails Girls Saarbrücken wird stattfinden in:'
+        google_maps: Du kannst es auch auf %{google_maps} ansehen.

@@ -1,0 +1,13 @@
+%header
+  .container_12
+    = link_to image_tag('railsgirls-logo.png', alt: 'Rails Girls'), '/', id: 'logo'
+
+    %nav
+      - if I18n.locale == :en
+        = link_to t('layout.header.navigation.german'), root_path(lang: :de)
+      - else
+        = link_to t('layout.header.navigation.english'), root_path(lang: :en)
+
+      = link_to '@RailsGirlsSB', 'http://twitter.com/RailsGirlsSB', target: '_blank'
+      = link_to 'Facebook', 'http://facebook.com/RailsGirlsSB', target: '_blank'
+      = link_to t('layout.header.navigation.legal_info'), '/legal_info'

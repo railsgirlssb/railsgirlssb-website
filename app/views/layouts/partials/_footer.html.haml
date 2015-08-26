@@ -1,0 +1,5 @@
+%footer
+  %p= t('layout.footer.content', contact: mail_to('railsgirlssb@gmail.com', t('layout.footer.contact_us'), encode: 'javascript'),
+  twitter: link_to('Twitter', 'http://twitter.com/RailsGirlsSB', target: '_blank'),
+  facebook: link_to('Facebook', 'https://www.facebook.com/RailsGirlsSB', target: '_blank')).html_safe
+  %p.slogan= t('layout.footer.slogan')

@@ -1,0 +1,23 @@
+%meta{ 'http-equiv' => "content-type", content: "text/html; charset=UTF-8" }
+%link{ rel: "shortcut icon", href: "/favicon.ico" }
+%link{ rel: 'apple-touch-icon', href: '/apple-touch-icon.png' }
+
+%title= t('layout.head.title')
+%meta{ name: 'description', content: t('layout.head.description') }
+%meta{ name: 'author', content: 'Rails Girls' }
+
+
+= stylesheet_link_tag 'application', media: 'all'
+
+= javascript_include_tag 'application'
+= javascript_include_tag 'https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js'
+= javascript_include_tag 'https://apis.google.com/js/plusone.js'
+= javascript_include_tag '//use.typekit.net/nbs6fzt.js'
+%script{ type: 'text/javascript' }
+  try{Typekit.load();}catch(e){}
+
+/ %meta{ property: 'og:image', content: 'http://railsgirls.com/images/railsgirls-sq.png' }
+/[if lt IE 9]
+  = javascript_include_tag '//html5shim.googlecode.com/svn/trunk/html5.js'
+
+= csrf_meta_tags
