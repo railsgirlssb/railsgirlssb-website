@@ -11,7 +11,7 @@
       %p
         %b
           = t('.welcome.applications_status')
-          = link_to t('.welcome.sign_up'), 'https://railsgirlssb.wufoo.com/forms/anmeldung-railsgirls-saarbracken-67-november-2015/', target: '_blank'
+          = link_to t('.welcome.sign_up'), sign_up_url, target: '_blank'
       %p= t('.welcome.follow_us', twitter: link_to('Twitter', 'http://twitter.com/railsgirlssb', target: '_blank'),
 facebook: link_to('Facebook', 'https://www.facebook.com/railsgirlssb', target: '_blank')).html_safe
 
@@ -140,7 +140,7 @@ facebook: link_to('Facebook', 'https://www.facebook.com/railsgirlssb', target: '
         %p
           %strong= t('.information.applications_open.header')
           = t('.information.applications_open.content')
-          = link_to t('.information.applications_open.sign_up'), 'https://railsgirlssb.wufoo.com/forms/apply-for-railsgirls-saarbracken-67-november-2015/', target: '_blank'
+          = link_to t('.information.applications_open.sign_up'), sign_up_url, target: '_blank'
           %br
 
           %strong= t('.information.application_deadline.header')
@@ -190,7 +190,7 @@ facebook: link_to('Facebook', 'https://www.facebook.com/railsgirlssb', target: '
 
     #sign_up
       .grid_12.sign_up
-        = link_to t('.information.sign_up'), 'https://railsgirlssb.wufoo.com/forms/anmeldung-railsgirls-saarbracken-67-november-2015/', target: '_blank'
+        = link_to t('.information.sign_up'), sign_up_url, target: '_blank'
 
     %hr
 
