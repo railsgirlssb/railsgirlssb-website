@@ -144,7 +144,7 @@ de:
         organizer_and_coach:
           female: Organisatorin, Coach
           male: Organisator, Coach
-        coach: coach
+        coach: Coach
 
       how_to_get_there:
         header: Wie komme ich zum Event?
