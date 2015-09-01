@@ -1,81 +1,80 @@
-.panel.light
-  .row{ id: i18n_link_id_for_anchor('schedule'), data: { magellan: { destination: 'schedule' } } }
-    .large-12.columns
-      %section.schedule.clearfix
-        %h3= t('home.index.schedule.header')
+.row{ id: i18n_link_id_for_anchor('schedule'), data: { magellan: { destination: 'schedule' } } }
+  .large-12.columns
+    %section.schedule.clearfix
+      %h3= t('home.index.schedule.header')
 
-        %h4= t('home.index.schedule.day_one.header')
+      %h4= t('home.index.schedule.day_one.header')
 
-        .row
-          .columns.large-2.small-12= t('home.index.schedule.day_one.installation_party.time')
-          .columns.large-10.small-12.item
-            %h5= t('home.index.schedule.day_one.installation_party.header')
-            = t('home.index.schedule.day_one.installation_party.content')
-            %br
-            %strong= t('home.index.schedule.day_one.installation_party.where')
-            = link_to t('home.index.schedule.day_one.installation_party.more'), i18n_link_anchor('location')
-          .columns.large-2.small-12= t('home.index.schedule.day_one.coach_dinner.time')
-          .columns.large-10.small-12.item
-            %h5= t('home.index.schedule.day_one.coach_dinner.header')
-            = t('home.index.schedule.day_one.coach_dinner.content')
+      .row
+        .columns.large-2.small-12= t('home.index.schedule.day_one.installation_party.time')
+        .columns.large-10.small-12.item
+          %h5= t('home.index.schedule.day_one.installation_party.header')
+          = t('home.index.schedule.day_one.installation_party.content')
+          %br
+          %strong= t('home.index.schedule.day_one.installation_party.where')
+          = link_to t('home.index.schedule.day_one.installation_party.more'), i18n_link_anchor('location')
+        .columns.large-2.small-12= t('home.index.schedule.day_one.coach_dinner.time')
+        .columns.large-10.small-12.item
+          %h5= t('home.index.schedule.day_one.coach_dinner.header')
+          = t('home.index.schedule.day_one.coach_dinner.content')
 
-        %hr
+      %hr
 
-        %h4= t('home.index.schedule.day_two.header')
+      %h4= t('home.index.schedule.day_two.header')
 
-        .row
-          .columns.large-2.small-12= t('home.index.schedule.day_two.registration.time')
-          .columns.large-10.small-12.item
-            %h5= t('home.index.schedule.day_two.registration.header')
-            = t('home.index.schedule.day_two.registration.content')
+      .row
+        .columns.large-2.small-12= t('home.index.schedule.day_two.registration.time')
+        .columns.large-10.small-12.item
+          %h5= t('home.index.schedule.day_two.registration.header')
+          = t('home.index.schedule.day_two.registration.content')
 
-          .columns.large-2.small-12= t('home.index.schedule.day_two.welcome.time')
-          .columns.large-10.small-12.item
-            %h5= t('home.index.schedule.day_two.welcome.header')
-            = t('home.index.schedule.day_two.welcome.content')
+        .columns.large-2.small-12= t('home.index.schedule.day_two.welcome.time')
+        .columns.large-10.small-12.item
+          %h5= t('home.index.schedule.day_two.welcome.header')
+          = t('home.index.schedule.day_two.welcome.content')
 
-          .columns.large-2.small-12= t('home.index.schedule.day_two.design_workshop.time')
-          .columns.large-10.small-12.item
-            %h5= t('home.index.schedule.day_two.design_workshop.header')
-            &nbsp;
+        .columns.large-2.small-12= t('home.index.schedule.day_two.design_workshop.time')
+        .columns.large-10.small-12.item
+          %h5= t('home.index.schedule.day_two.design_workshop.header')
+          &nbsp;
 
-          .columns.large-2.small-12= t('home.index.schedule.day_two.try_ruby.time')
-          .columns.large-10.small-12.item
-            %h5= link_to 'Tryruby.org', 'http://www.tryruby.org', target: '_blank'
-            = t('home.index.schedule.day_two.try_ruby.content')
+        .columns.large-2.small-12= t('home.index.schedule.day_two.try_ruby.time')
+        .columns.large-10.small-12.item
+          %h5= link_to 'Tryruby.org', 'http://www.tryruby.org', target: '_blank'
+          = t('home.index.schedule.day_two.try_ruby.content')
 
-          .columns.large-2.small-12= t('home.index.schedule.day_two.workshop.time')
-          .columns.large-10.small-12.item
-            %h5= t('home.index.schedule.day_two.workshop.header')
-            = t('home.index.schedule.day_two.workshop.content')
+        .columns.large-2.small-12= t('home.index.schedule.day_two.workshop.time')
+        .columns.large-10.small-12.item
+          %h5= t('home.index.schedule.day_two.workshop.header')
+          = t('home.index.schedule.day_two.workshop.content')
 
-          .columns.large-2.small-12= t('home.index.schedule.day_two.lunch.time')
-          .columns.large-10.small-12.item
-            %h5= t('home.index.schedule.day_two.lunch.header')
-            &nbsp;
+        .columns.large-2.small-12= t('home.index.schedule.day_two.lunch.time')
+        .columns.large-10.small-12.item
+          %h5= t('home.index.schedule.day_two.lunch.header')
+          &nbsp;
 
-          .columns.large-2.small-12= t('home.index.schedule.day_two.bentobox.time')
-          .columns.large-10.small-12.item
-            %h5= t('home.index.schedule.day_two.bentobox.header')
-            = t('home.index.schedule.day_two.bentobox.content')
+        .columns.large-2.small-12= t('home.index.schedule.day_two.bentobox.time')
+        .columns.large-10.small-12.item
+          %h5= t('home.index.schedule.day_two.bentobox.header')
+          = t('home.index.schedule.day_two.bentobox.content')
 
-          .columns.large-2.small-12= t('home.index.schedule.day_two.lightning_talks.time')
-          .columns.large-10.small-12.item
-            %h5
-              - if I18n.locale == :en
-                = t('home.index.schedule.day_two.lightning_talks.header')
-                = t('home.index.schedule.day_two.lightning_talks.sub_header')
-              - else
-                = link_to t('home.index.schedule.day_two.lightning_talks.header'), 'https://de.wikipedia.org/wiki/Lightning_Talk', target: '_blank'
-                = t('home.index.schedule.day_two.lightning_talks.sub_header')
-            = t('home.index.schedule.day_two.lightning_talks.content')
+        .columns.large-2.small-12= t('home.index.schedule.day_two.lightning_talks.time')
+        .columns.large-10.small-12.item
+          %h5
+            - if I18n.locale == :en
+              = t('home.index.schedule.day_two.lightning_talks.header')
+              = t('home.index.schedule.day_two.lightning_talks.sub_header')
+            - else
+              = link_to t('home.index.schedule.day_two.lightning_talks.header'), 'https://de.wikipedia.org/wiki/Lightning_Talk', target: '_blank'
+              = t('home.index.schedule.day_two.lightning_talks.sub_header')
+          = t('home.index.schedule.day_two.lightning_talks.content')
 
-          .columns.large-2.small-12= t('home.index.schedule.day_two.workshop_extension.time')
-          .columns.large-10.small-12.item
-            %h5= t('home.index.schedule.day_two.workshop_extension.header')
-            = t('home.index.schedule.day_two.workshop_extension.content')
+        .columns.large-2.small-12= t('home.index.schedule.day_two.workshop_extension.time')
+        .columns.large-10.small-12.item
+          %h5= t('home.index.schedule.day_two.workshop_extension.header')
+          = t('home.index.schedule.day_two.workshop_extension.content')
 
-          .columns.large-2.small-12= t('home.index.schedule.day_two.afterparty.time')
-          .columns.large-10.small-12.item
-            %h5= t('home.index.schedule.day_two.afterparty.header')
-            = t('home.index.schedule.day_two.afterparty.content')
+        .columns.large-2.small-12= t('home.index.schedule.day_two.afterparty.time')
+        .columns.large-10.small-12.item
+          %h5= t('home.index.schedule.day_two.afterparty.header')
+          = t('home.index.schedule.day_two.afterparty.content')

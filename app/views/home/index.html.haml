@@ -8,7 +8,7 @@
 
 = render 'home/partials/information'
 
-= render 'home/partials/action_panel', text: t('home.index.information.sign_up.text'), button: link_to(t('home.index.information.sign_up.button'), sign_up_link, target: '_blank', class: 'button radius')
+= render 'home/partials/action_panel', text: t('home.index.information.sign_up.text'), button: information_sign_up_button, small_button: information_sign_up_button(small: true)
 
 = render 'home/partials/faq'
 
@@ -16,6 +16,6 @@
 
 = render 'home/partials/sponsors'
 
-= render 'home/partials/action_panel', text: t('home.index.sponsors.contact.header'), button: mail_to('railsgirlssb@gmail.com', t('home.index.sponsors.contact.button'), subject: t('home.index.sponsors.contact.subject'), encode: 'javscript', class: 'button radius')
+= render 'home/partials/action_panel', text: t('home.index.sponsors.contact.header'), button: be_sponsor_button, small_button: be_sponsor_button(small: true)
 
 = render 'home/partials/location'

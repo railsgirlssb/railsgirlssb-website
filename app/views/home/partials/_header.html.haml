@@ -4,7 +4,7 @@
       = image_tag 'header-logo.png', alt: 'Logo'
 
     .columns.large-8.medium-8.small-12
-      %div
+      .header-content
         %h1
           = t('home.index.header')
           %br
@@ -13,4 +13,5 @@
         %h2= t('home.index.welcome.header')
 
         %p= t('home.index.welcome.content')
-        %p= link_to t('home.index.welcome.sign_up'), sign_up_link, target: '_blank', class: 'button radius'
+        %p.hide-for-small-only= sign_up_button
+        %p.show-for-small-only= sign_up_button(small: true)

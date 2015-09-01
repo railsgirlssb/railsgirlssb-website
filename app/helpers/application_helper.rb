@@ -37,14 +37,6 @@ module ApplicationHelper
     render_icon_link(handle, options.merge({ type: 'github' }))
   end
 
-  def sign_up_link
-    if I18n.locale == :en
-      'https://railsgirlssb.wufoo.com/forms/apply-for-railsgirls-saarbracken-67-november-2015/'
-    else
-      'https://railsgirlssb.wufoo.com/forms/anmeldung-railsgirls-saarbracken-67-november-2015/'
-    end
-  end
-
   def i18n_link_anchor(item)
     '#' + i18n_link_id_for_anchor(item)
   end
