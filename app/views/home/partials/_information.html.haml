@@ -1,4 +1,4 @@
-.row#information{ data: { magellan: { destination: 'information' } } }
+.row{ id: i18n_link_id_for_anchor('information'), data: { magellan: { destination: 'information' } } }
   .large-12.columns
     %section.information.clearfix
       %h3= t('home.index.information.header')
@@ -17,5 +17,4 @@
 
       %p
         %strong= t('home.index.information.location.header')
-        Science Park 2, 66123 Saarbrücken
-        = link_to t('home.index.information.location.map'), '#location'
+        = link_to t('home.index.information.location.map'), i18n_link_anchor('location')

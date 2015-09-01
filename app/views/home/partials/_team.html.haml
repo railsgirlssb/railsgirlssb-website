@@ -1,5 +1,5 @@
 .panel.light
-  .row#team{ data: { magellan: { destination: 'team' } } }
+  .row{ id: i18n_link_id_for_anchor('team'), data: { magellan: { destination: 'team' } } }
     .columns.large-12
       %section.team.clearfix
         .row
@@ -56,3 +56,13 @@
                 .social-media
                   = twitter_icon_link('lnxbil')
                   = github_icon_link('lnxbil')
+
+            .member
+              = image_tag 'ruby-101.png'
+              .member-content
+                %span.name= 'Sven Schmidt'
+                %br
+                %i= t('home.index.team.coach')
+                .social-media
+                  = twitter_icon_link('AVTQ_Sven')
+                  = github_icon_link('schmidtsv')

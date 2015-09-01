@@ -45,6 +45,14 @@ module ApplicationHelper
     end
   end
 
+  def i18n_link_anchor(item)
+    '#' + i18n_link_id_for_anchor(item)
+  end
+
+  def i18n_link_id_for_anchor(item)
+    t('layout.navigation.' + item).parameterize
+  end
+
   private
 
   def render_icon_link(handle, options = {})

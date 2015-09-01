@@ -1,4 +1,4 @@
-.row#location{ data: { magellan: { destination: 'location' } } }
+.row{ id: i18n_link_id_for_anchor('location'), data: { magellan: { destination: 'location' } } }
   .large-12.columns
     %section.location
       .row
@@ -12,6 +12,8 @@
             Science Park 2
             %br
             66123 Saarbrücken
+            %br
+            = t('home.index.location.germany')
 
 
             %span.map-link.show-for-small-only

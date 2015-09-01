@@ -7,9 +7,8 @@ en:
 
     navigation:
       home: Home
-      schedule: Programm
-      information: Informationen
-      faq: FAQ
+      schedule: Schedule
+      information: Information
       team: Team
       location: Directions
       german: Deutsch
@@ -26,66 +25,68 @@ en:
 
       welcome:
         header: Welcome!
-        content: Rails Girls comes to Saarbrücken! During the free two-day workshop we'll dive into the magical world of Ruby on Rails.
-        sign_up: Sign up here!
+        content: During the free two-day workshop we'll dive into the world of web applications. Our workshop is open for all girls and women aged 16 and older.
+        sign_up: Sign up for free!
 
       features:
         learn:
           header: You learn
-          content: designing, prototyping and coding with the help from our coaches.
+          content: designing, prototyping and coding with the help of our coaches.
         need:
           header: You need
           content: your own laptop, curiosity and a sprinkle of imagination!
         help:
           header: Want to help?
-          content: We are looking for volunteers and Rails coaches.
+          content: We are looking for volunteers and coaches.
           contact:
-            header: Email us
+            header: Email us!
             subject: Be a volunteer or coach
 
       schedule:
         header: Schedule
         day_one:
-          header: Friday 6th November
+          header: Friday, November 6th, 2015
           installation_party:
             time: 17:00 - 20:00
             header: Installation party
-            content: Get know the attendees a little bit before hand. Bring your laptop if you can, so we can install Ruby on Rails for you.
+            content: Get to know the attendees a little bit before hand. Bring your laptop, so we can install Ruby on Rails for you.
             where: 'Where:'
+            more: See map
           coach_dinner:
             time: 20:00 -
             header: Coach dinner
             content: "All of the coaches are welcome to our coach dinner, where we'll go through the program for the next day."
         day_two:
-          header: Saturday 7th November
+          header: Saturday, November 7th, 2015
           registration:
             time: 09:00 - 10:00
-            header: Registration, coffee and installation fest
-            content: During the morning we’ll install Ruby on Rails on your computer.
+            header: Registration and installation fest
+            content: Registration for the workshop. Repeated opportunity to install Ruby on Rails on your computer.
           welcome:
             time: 10:00 - 10:15
             header: Welcome
-            content: Outline of the day &amp; word from sponsors
+            content: Outline of the day and word from sponsors.
           design_workshop:
             time: 10:20 - 10:45
-            header: Designing your web app -workshop
+            header: Designing your web app
           try_ruby:
             time: 10:50 - 11:10
             content: Let's get coding!
           workshop:
             time: 11:10 - 13:00
             header: WORKSHOP
-            content: Jumpstart your first web application
+            content: Jumpstart your first web application.
           lunch:
             time: 13:00 - 13:30
             header: Lunch
           bentobox:
             time: 13.30- 13:45
-            header: Bentobox - Understanding Web Apps
-            content: Recap of what we’ve learned and how it all fits together.
+            header: Understanding Web Apps
+            content: Recap of what we’ve learned.
           lightning_talks:
             time: 13:45 - 14:30
             header: Lightning talks from coaches
+            content: More information coming soon.
           workshop_extension:
             time: 14:30 - 16:30
             header: WORKSHOP
@@ -99,10 +100,10 @@ en:
         header: Information
         applications_open:
           header: 'Applications open:'
-          content: now
+          content: August 24th, 2015
         application_deadline:
           header: 'Application deadline:'
-          content: October 26th
+          content: October 26th, 2015
         acceptances_informed:
           header: 'Acceptances informed:'
           content: Shortly after the application deadline
@@ -112,24 +113,24 @@ en:
 
         sign_up:
           text: Want to join us?
-          button: Sign up here!
+          button: Sign up for free!
 
       faq:
         header: FAQ
         costs:
           header: How much does the workshop cost?
-          content: "Nothing, it's free! You just need to be excited!"
+          content: "Nothing, it's free! (incl. food and drinks)"
         target_audience:
-          header: Who is this aimed for?
-          content: "Women of any age with basic knowledge of working with a computer. We’ve had people of all ages taking part. Most of the speeches are given in english, but small group work is done in german. Please bring your laptop."
+          header: Who is the workshop aimed for?
+          content: "It's for girls and women aged 16 and over - no matter if school student, student, trainee, professional, etc. You don't need any previous knowledge for the workshop. But you have to bring your laptop."
         men_attending:
           header: Can men attend?
-          content: Yes, but you need to be accompanied by an interested lady. Also, girls are given a priority.
+          content: Yes, but they need to be accompanied by an interested lady. Also, girls are given a priority.
         want_to_help:
           header: I know how to program - How can I help?
-          content: We’re also looking for people to be coaches. We’ll have a two-three hour workshop before the event to walk you through the curriculum.
+          content: We’re also looking for people to be coaches. The schedule will be discussed in advanced with all coaches.
           contact:
-            header: Email us
+            header: Sign up as a coach
             subject: Be a coach
 
       team:
@@ -148,5 +149,6 @@ en:
 
       location:
         header: Directions
-        content: 'Rails Girls Saarbrücken is going to be at:'
+        content: 'Location:'
+        germany: Germany
         google_maps: See on %{google_maps}.

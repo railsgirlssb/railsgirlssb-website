@@ -10,10 +10,9 @@
 
     .top-bar-section
       %ul
-        %li.active{ data: { magellan: { arrival: 'home' } } }= link_to t('layout.navigation.home'), '#home'
-        %li{ data: { magellan: { arrival: 'schedule' } } }= link_to t('layout.navigation.schedule'), '#schedule'
-        %li{ data: { magellan: { arrival: 'information' } } }= link_to t('layout.navigation.information'), '#information'
-        %li{ data: { magellan: { arrival: 'faq' } } }= link_to t('layout.navigation.faq'), '#faq'
-        %li{ data: { magellan: { arrival: 'team' } } }= link_to t('layout.navigation.team'), '#team'
-        %li{ data: { magellan: { arrival: 'location' } } }= link_to t('layout.navigation.location'), '#location'
+        %li.active{ data: { magellan: { arrival: 'home' } } }= link_to t('layout.navigation.home'), i18n_link_anchor('home')
+        %li{ data: { magellan: { arrival: 'schedule' } } }= link_to t('layout.navigation.schedule'), i18n_link_anchor('schedule')
+        %li{ data: { magellan: { arrival: 'information' } } }= link_to t('layout.navigation.information'), i18n_link_anchor('information')
+        %li{ data: { magellan: { arrival: 'team' } } }= link_to t('layout.navigation.team'), i18n_link_anchor('team')
+        %li{ data: { magellan: { arrival: 'location' } } }= link_to t('layout.navigation.location'), i18n_link_anchor('location')
         %li.show-for-small-only= language_link
