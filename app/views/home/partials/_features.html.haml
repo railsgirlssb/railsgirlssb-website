@@ -1,0 +1,17 @@
+.row
+  .large-12.columns
+    %section.features.clearfix
+      .row
+        .columns.large-4.medium-4.small-12
+          %h5= t('home.index.features.learn.header')
+          %p= t('home.index.features.learn.content')
+
+        .columns.large-4.medium-4.small-12
+          %h5= t('home.index.features.need.header')
+          %p= t('home.index.features.need.content')
+
+        .columns.large-4.medium-4.small-12
+          %h5= t('home.index.features.help.header')
+          %p
+            = t('home.index.features.help.content')
+            = mail_to 'railsgirlssb@gmail.com', t('home.index.features.help.contact.header'), subject: t('home.index.features.help.contact.subject'), encode: 'javscript'

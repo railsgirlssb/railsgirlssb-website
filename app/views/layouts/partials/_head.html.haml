@@ -1,23 +1,26 @@
-%meta{ 'http-equiv' => "content-type", content: "text/html; charset=UTF-8" }
-%link{ rel: "shortcut icon", href: image_path("favicon.png") }
+%meta{ 'http-equiv' => 'X-UA-Compatible', content: 'IE=edge' }
+%meta{ 'http-equiv' => 'content-type', content: "text/html; charset=UTF-8" }
+%meta{ name: 'viewport', content: 'width=device-width, initial-scale=1.0' }
+%link{ rel: "shortcut icon", href: "/assets/favicon.ico" }
 %link{ rel: 'apple-touch-icon', href: '/assets/apple-touch-icon.png' }
+%link{ rel: 'apple-touch-icon', sizes: '72x72', href: '/assets/apple-touch-icon-72x72.png' }
+%link{ rel: 'apple-touch-icon', sizes: '114x114', href: '/assets/apple-touch-icon-114x114.png' }
+%link{ rel: 'apple-touch-icon', sizes: '144x144', href: '/assets/apple-touch-icon-144x144.png' }
 
 %title= t('layout.head.title')
 %meta{ name: 'description', content: t('layout.head.description') }
+%meta{ name: 'keywords', content: t('layout.head.keywords') }
 %meta{ name: 'author', content: 'Rails Girls' }
+%meta{ property: 'og:title', content: '' }
+%meta{ property: 'og:description', content: '' }
+%meta{ property: 'og:url', content: '' }
+%meta{ property: 'og:image', content: '' }
+%meta{ name: 'format-detection', content: 'telephone=no' }
+%meta{ name: 'format-detection', content: 'address=no' }
 
 
 = stylesheet_link_tag 'application', media: 'all'
-
-= javascript_include_tag 'application'
-= javascript_include_tag 'https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js'
-= javascript_include_tag 'https://apis.google.com/js/plusone.js'
-= javascript_include_tag '//use.typekit.net/nbs6fzt.js'
-%script{ type: 'text/javascript' }
-  try{Typekit.load();}catch(e){}
-
-/ %meta{ property: 'og:image', content: 'http://railsgirls.com/images/railsgirls-sq.png' }
-/[if lt IE 9]
-  = javascript_include_tag '//html5shim.googlecode.com/svn/trunk/html5.js'
+= stylesheet_link_tag '//fonts.googleapis.com/css?family=PT+Sans:400,700%7COpen+Sans:400italic,400,700'
+= stylesheet_link_tag 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'
 
 = csrf_meta_tags

@@ -12,14 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require_tree .
+//= require foundation
+//= require jquery-ui
 
-$(document).ready(function() {
-  if( $.isFunction( $.fn.fancybox ) ) {
-    $("#inline").fancybox({
-      'hideOnContentClick': false,
-      'height': 600,
-      'width': 800
-    });
-  }
+$(function() {
+  $(document).foundation();
 });

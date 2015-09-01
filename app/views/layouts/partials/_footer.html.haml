@@ -1,8 +1,18 @@
-%footer
-  %p= t('layout.footer.content', contact: mail_to('railsgirlssb@gmail.com', t('layout.footer.contact_us'), encode: 'javascript'),
-  twitter: link_to('Twitter', 'http://twitter.com/RailsGirlsSB', target: '_blank'),
-  facebook: link_to('Facebook', 'https://www.facebook.com/RailsGirlsSB', target: '_blank')).html_safe
-  %p.slogan= t('layout.footer.slogan')
+%footer.panel
+  .row
+    .columns.large-8.medium-12
+      %ul.links
+        %li= link_to t('layout.footer.navigation.home'), root_path
+        %li= link_to t('layout.footer.navigation.legal_info'), '/legal_info'
+
+      %small.copyright
+        &copy; 2015 Rails Girls Saarbrücken
+
+    .columns.large-4.medium-12.social-media
+      = mail_to 'railsgirlssb@gmail.com', round_icon('envelope', size: '2x'), encode: 'javascript', class: 'icon-email'
+      = twitter_icon_link('RailsGirlsSB', size: '2x')
+      = facebook_icon_link('RailsGirlsSB', size: '2x')
+      = github_icon_link('railsgirlssb', size: '2x')
 
 - if Rails.env.production?
   :javascript
@@ -18,3 +28,4 @@
       var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
       g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
     })();
+

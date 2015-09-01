@@ -1,0 +1,145 @@
+/* home -------------------------- */
+body.home {
+    &.index {
+        header.home {
+            background: url(asset-path('header.png')) no-repeat 50% 50%;
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            color: $white;
+            padding: 200px 0;
+            h1 {
+                color: $primary-color;
+                line-height: 1;
+            }
+            small {
+                color: $white;
+                font-size: 50%;
+            }
+            div.columns {
+                float: left;
+                &.logo {
+                    padding-right: 1.25rem;
+
+                }
+                div {
+                    padding-left: 10px;
+                }
+            }
+        }
+
+        div.panel.action {
+            text-align: center;
+            height: 98px;
+            a {
+                border: 1px solid $white;
+                margin-left: 25px;
+            }
+        }
+
+        section.schedule {
+            div.columns {
+                margin-top: 15px;
+            }
+        }
+
+        section.information {
+            text-align: center;
+            border-bottom: none;
+        }
+
+        section.faq {
+            text-align: center;
+        }
+
+        section.team {
+            text-align: center;
+            padding-bottom: 60px;
+            div.member {
+                display: inline-block;
+                padding: 0 0 20px;
+                min-width: 300px;
+                max-width: 300px;
+                img {
+                    float: left;
+                    margin-bottom: 0;
+                }
+                div.member-content {
+                    margin-left: 10px;
+                    float: left;
+                    text-align: left;
+                }
+                span.name {
+                    color: $primary-color;
+                }
+            }
+        }
+
+        section.sponsors {
+            text-align: center;
+            padding-top: 60px;
+            border-bottom: none;
+            p {
+                font-size: 19px;
+            }
+            ul {
+                margin: 25px 0;
+                li {
+                    display: inline-block;
+                    list-style: none;
+                    margin: 15px 25px;
+                    img {
+                        width: 185px;
+                    }
+                }
+            }
+            div.buttons-wrapper {
+                padding-top: 20px;
+            }
+        }
+
+        section.location {
+            border-bottom: none;
+            p.description {
+                float: left;
+            }
+            span.map-link {
+                margin-top: 20px;
+            }
+            div.map {
+                float: right;
+            }
+        }
+
+        div.panel.light {
+            background-color: $white;
+            color: $text;
+            border: none;
+            h3 {
+                margin-bottom: 37px;
+                color: $primary-color;
+            }
+            h4,
+            h5 {
+                color: $primary-color;
+            }
+        }
+
+        section {
+            a {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    &.legal-info {
+        section {
+            text-align: center;
+            border-bottom: none;
+            h2 {
+                margin-top: 50px;
+            }
+        }
+    }
+}

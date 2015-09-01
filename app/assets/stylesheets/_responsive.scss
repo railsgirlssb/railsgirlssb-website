@@ -1,0 +1,85 @@
+/* responsive -------------------------- */
+@media #{$small-only}, #{$medium-only} {
+    body {
+        footer {
+            text-align: center;
+            ul {
+                &.links li {
+                  padding-right: 0;
+                }
+                li {
+                    float: none;
+                }
+            }
+            small.copyright {
+                position: inherit;
+                left: 0;
+                top: 0;
+            }
+
+            div.links {
+                margin-bottom: 40px;
+            }
+            div.social-media {
+                margin-top: 30px;
+            }
+        }
+
+        &.home.index {
+            div.navigation {
+                &.fixed {
+                    display: none;
+                }
+                ul.language-area {
+                    right: 96px;
+                    position: absolute;
+                }
+                ul.title-area {
+                    position: static;
+                }
+            }
+
+            &.home {
+                section.location {
+                    text-align: center;
+                    p.description {
+                        float: none;
+                    }
+                    div.map {
+                        float: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media #{$small-only} {
+    body {
+        footer ul.links li {
+            padding-right: 0;
+        }
+        &.home.index {
+            header.home, section.features {
+                text-align: center;
+            }
+            div.navigation div.top-bar-section {
+                li.show-for-small-only {
+                    display: list-item !important;
+                }
+            }
+            section.schedule {
+                text-align: center;
+                div.item {
+                    margin-top: 0;
+                }
+            }
+            div.panel.action {
+                height: 151px;
+                a {
+                    margin: 25px auto 0;
+                }
+            }
+        }
+    }
+}

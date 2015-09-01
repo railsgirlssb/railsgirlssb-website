@@ -1,0 +1,21 @@
+.row#information{ data: { magellan: { destination: 'information' } } }
+  .large-12.columns
+    %section.information.clearfix
+      %h3= t('home.index.information.header')
+
+      %p
+        %strong= t('home.index.information.applications_open.header')
+        = t('home.index.information.applications_open.content')
+        %br
+
+        %strong= t('home.index.information.application_deadline.header')
+        = t('home.index.information.application_deadline.content')
+        %br
+
+        %strong= t('home.index.information.acceptances_informed.header')
+        = t('home.index.information.acceptances_informed.content')
+
+      %p
+        %strong= t('home.index.information.location.header')
+        Science Park 2, 66123 Saarbrücken
+        = link_to t('home.index.information.location.map'), '#location'

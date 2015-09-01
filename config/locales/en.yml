@@ -3,16 +3,21 @@ en:
     head:
       title: Rails Girls Saarbrücken, 6-7 November 2015
       description: 'Rails Girls goes Saarbrücken, 6-7 November 2015: join the two-day crash-course to the exciting world of building web applications with Ruby on Rails.'
+      keywords: Saarland, Saarbrücken, Saar, Rails, Rails Girls
 
-    header:
-      navigation:
-        german: Deutsch
-        legal_info: Legal Info
+    navigation:
+      home: Home
+      schedule: Programm
+      information: Informationen
+      faq: FAQ
+      team: Team
+      location: Directions
+      german: Deutsch
 
     footer:
-      content: 2015, Rails Girls Saarbrücken. %{contact} or follow us on %{twitter} and %{facebook}.
-      contact_us: Contact us
-      slogan: Get excited and make things!
+      navigation:
+        home: Home
+        legal_info: Legal Info
 
   home:
     index:
@@ -22,10 +27,7 @@ en:
       welcome:
         header: Welcome!
         content: Rails Girls comes to Saarbrücken! During the free two-day workshop we'll dive into the magical world of Ruby on Rails.
-        applications_status: Applications are open until October 26th.
         sign_up: Sign up here!
-        follow_us: Follow us on %{twitter} and %{facebook}.
-        twitter_share: Rails Girls Saarbrücken, 6-7 November 2015 - apply now! Follow them at @RailsGirlsSB
 
       features:
         learn:
@@ -42,6 +44,7 @@ en:
             subject: Be a volunteer or coach
 
       schedule:
+        header: Schedule
         day_one:
           header: Friday 6th November
           installation_party:
@@ -50,7 +53,7 @@ en:
             content: Get know the attendees a little bit before hand. Bring your laptop if you can, so we can install Ruby on Rails for you.
             where: 'Where:'
           coach_dinner:
-            time: 20.00 -
+            time: 20:00 -
             header: Coach dinner
             content: "All of the coaches are welcome to our coach dinner, where we'll go through the program for the next day."
         day_two:
@@ -97,7 +100,6 @@ en:
         applications_open:
           header: 'Applications open:'
           content: now
-          sign_up: Sign up here!
         application_deadline:
           header: 'Application deadline:'
           content: October 26th
@@ -108,35 +110,27 @@ en:
           header: 'Location:'
           map: See map
 
-        partners:
-          header: Partners
-          content: Rails Girls Saarbrücken is co-organized with our awesome partners.
-          want_to_help: Want to help? We're looking for partners & sponsors for the non-profit event!
+        sign_up:
+          text: Want to join us?
+          button: Sign up here!
+
+      faq:
+        header: FAQ
+        costs:
+          header: How much does the workshop cost?
+          content: "Nothing, it's free! You just need to be excited!"
+        target_audience:
+          header: Who is this aimed for?
+          content: "Women of any age with basic knowledge of working with a computer. We’ve had people of all ages taking part. Most of the speeches are given in english, but small group work is done in german. Please bring your laptop."
+        men_attending:
+          header: Can men attend?
+          content: Yes, but you need to be accompanied by an interested lady. Also, girls are given a priority.
+        want_to_help:
+          header: I know how to program - How can I help?
+          content: We’re also looking for people to be coaches. We’ll have a two-three hour workshop before the event to walk you through the curriculum.
           contact:
             header: Email us
-            subject: Be a partner or sponsor
-          descriptions:
-            avarteq: is a IT agency providing services related to web development and hosting.
-
-        faq:
-          header: FAQ
-          costs:
-            header: How much does the workshop cost?
-            content: "Nothing, it's free! You just need to be excited!"
-          target_audience:
-            header: Who is this aimed for?
-            content: "Women of any age with basic knowledge of working with a computer. We’ve had people of all ages taking part. Most of the speeches are given in english, but small group work is done in german. Please bring your laptop."
-          men_attending:
-            header: Can men attend?
-            content: Yes, but you need to be accompanied by an interested lady. Also, girls are given a priority.
-          want_to_help:
-            header: I know how to program - How can I help?
-            content: We’re also looking for people to be coaches. We’ll have a two-three hour workshop before the event to walk you through the curriculum.
-            contact:
-              header: Email us
-              subject: Be a coach
-
-        sign_up: Want to join us? Sign up here!
+            subject: Be a coach
 
       team:
         header: The team
@@ -145,8 +139,14 @@ en:
           male: organizer and coach
         coach: coach
 
-      how_to_get_there:
-        header: How to get there?
-        sub_header: Location
+      sponsors:
+        header: 'Rails Girls Saarbrücken is sponsored by:'
+        contact:
+          header: We are looking for sponsors!
+          button: Support us
+          subject: Be sponsor
+
+      location:
+        header: Directions
         content: 'Rails Girls Saarbrücken is going to be at:'
-        google_maps: You can also check it on %{google_maps}.
+        google_maps: See on %{google_maps}.

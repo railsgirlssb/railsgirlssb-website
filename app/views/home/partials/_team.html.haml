@@ -1,0 +1,58 @@
+.panel.light
+  .row#team{ data: { magellan: { destination: 'team' } } }
+    .columns.large-12
+      %section.team.clearfix
+        .row
+          %h3= t('home.index.team.header')
+
+          .columns.clearfix.large-4.medium-6.small-12.large-uncentered.medium-uncentered.small-centered
+            .member
+              = image_tag 'ruby-100.png'
+              .member-content
+                %span.name= 'Corinna Wiesner'
+                %br
+                %i= t('home.index.team.organizer_and_coach.female')
+                .social-media
+                  = twitter_icon_link('walkertwowski')
+                  = github_icon_link('corinnawiesner')
+
+            .member
+              = image_tag 'ruby-101.png'
+              .member-content
+                %span.name= 'Marcel Stegmann'
+                %br
+                %i= t('home.index.team.coach')
+                .social-media
+                  = twitter_icon_link('dauerschreiber')
+                  = github_icon_link('mstegmann-avarteq')
+
+          .columns.clearfix.large-4.medium-6.small-12.large-uncentered.medium-uncentered.small-centered
+            .member
+              = image_tag 'ruby-101.png'
+              .member-content
+                %span.name= 'Robert Gogolok'
+                %br
+                %i= t('home.index.team.organizer_and_coach.male')
+                .social-media
+                  = twitter_icon_link('gogolok')
+                  = github_icon_link('gogolok')
+
+            .member
+              = image_tag 'ruby-100.png'
+              .member-content
+                %span.name= 'Monika Dondorf'
+                %br
+                %i= t('home.index.team.coach')
+                .social-media
+                  = twitter_icon_link('santa_nika')
+
+          .columns.clearfix.large-4.medium-6.small-12.large-uncentered.medium-uncentered.small-centered
+            .member
+              = image_tag 'ruby-101.png'
+              .member-content
+                %span.name= 'Andreas Steinel'
+                %br
+                %i= t('home.index.team.coach')
+                .social-media
+                  = twitter_icon_link('lnxbil')
+                  = github_icon_link('lnxbil')

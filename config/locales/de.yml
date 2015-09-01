@@ -3,16 +3,21 @@ de:
     head:
       title: Rails Girls Saarbrücken, 6-7 November 2015
       description: 'Rails Girls in Saarbrücken, 6-7 November 2015: Mach beim zweitägigen Crashkurs in eine aufregende Welt der Erstellungen von Webapplikation mit Ruby on Rails mit.'
+      keywords: Saarland, Saarbrücken, Saar, Rails, Rails Girls
 
-    header:
-      navigation:
-        english: English
-        legal_info: Impressum
+    navigation:
+      home: Home
+      schedule: Agenda
+      information: Information
+      faq: FAQ
+      team: Team
+      location: Wegbeschreibung
+      english: English
 
     footer:
-      content: 2015, Rails Girls Saarbrücken. %{contact} oder folge uns auf %{twitter} and %{facebook}.
-      contact_us: Kontaktiere uns
-      slogan: Get excited and make things!
+      navigation:
+        home: Home
+        legal_info: Impressum
 
   home:
     index:
@@ -22,10 +27,7 @@ de:
       welcome:
         header: Willkommen!
         content: Rails Girls kommt nach Saarbrücken! Im zweitägigen Workshop tauchen wir in die magische Welt von Ruby on Rails ein.
-        applications_status: Anmeldeschluss ist der 26. Oktober.
         sign_up: Melde dich hier an!
-        follow_us: Folge uns auf %{twitter} und %{facebook}.
-        twitter_share: Rails Girls Saarbrücken, 6-7 November 2015 - melde dich jetzt an! Folge ihnen auf @RailsGirlsSB
 
       features:
         learn:
@@ -42,6 +44,7 @@ de:
             subject: Freiwilliger oder Coach sein
 
       schedule:
+        header: Agenda
         day_one:
           header: Freitag 6. November
           installation_party:
@@ -50,7 +53,7 @@ de:
             content: Lern die Teilnehmer im Voraus kennen.. Bring, falls möglich, Deinen Laptop mit, so das wir Dir Ruby on Rails installieren können.
             where: 'Wo:'
           coach_dinner:
-            time: 20.00 -
+            time: 20:00 -
             header: Coach dinner
             content: Alle Coaches sind willkommen zu unserem Abendessen. Wir gehen das Programm für den nächsten Tag durch.
         day_two:
@@ -98,7 +101,6 @@ de:
         applications_open:
           header: 'Anmeldebeginn:'
           content: jetzt
-          sign_up: Melde dich hier an!
         application_deadline:
           header: 'Anmeldeschluss:'
           content: 26. Oktober
@@ -109,45 +111,43 @@ de:
           header: 'Standort:'
           map: Siehe Karte
 
-        partners:
-          header: Partner
-          content: Rails Girls Saarbrücken wird mit unseren großartigen Partnern mitorganisiert.
-          want_to_help: Willst du helfen? Wir suchen nach Partnern und Sponsoren für unser gemeinnütziges Event!
+        sign_up:
+          text: Willst du mitmachen?
+          button: Melde dich hier an!
+
+      faq:
+        header: FAQ
+        costs:
+          header: Wie viel kostet der Workshop?
+          content: Nichts, er ist kostenlos! Du musst dich nur darauf freuen!
+        target_audience:
+          header: Für wen ist der Workshop gemacht?
+          content: Er steht allen Mädchen und Frauen ab 16 Jahren offen - egal ob Schülerin, Studentin, Auszubildende, Berufstätige, .... Für den Workshop brauchst Du keine Vorkenntnisse. Bitte bringe deinen Laptop mit.
+        men_attending:
+          header: Können Männer auch kommen?
+          content: Ja, aber sie müssen von einer Teilnehmerin begleitet werden. Frauen werden bevorzugt aufgenommen.
+        want_to_help:
+          header: Ich kann programmieren - Wie kann ich helfen?
+          content: Wir suchen auch Coaches. Wir haben vor dem Event einen 2-3 stündigen Workshop zum Durchgehen des Ablaufs.
           contact:
             header: Schreibe uns
-            subject: Partner or Sponsor sein
-          descriptions:
-            avarteq: ist eine IT-Agentur für Webentwicklungen und Hosting.
-
-        faq:
-          header: FAQ
-          costs:
-            header: Wie viel kostet der Workshop?
-            content: Nichts, er ist kostenlos! Du musst dich nur darauf freuen!
-          target_audience:
-            header: Für wen ist der Workshop gemacht?
-            content: Er steht allen Mädchen und Frauen ab 16 Jahren offen - egal ob Schülerin, Studentin, Auszubildende, Berufstätige, .... Für den Workshop brauchst Du keine Vorkenntnisse. Bitte bringe deinen Laptop mit.
-          men_attending:
-            header: Können Männer auch kommen?
-            content: Ja, aber sie müssen von einer Teilnehmerin begleitet werden. Frauen werden bevorzugt aufgenommen.
-          want_to_help:
-            header: Ich kann programmieren - Wie kann ich helfen?
-            content: Wir suchen auch Coaches. Wir haben vor dem Event einen 2-3 stündigen Workshop zum Durchgehen des Ablaufs.
-            contact:
-              header: Schreibe uns
-              subject: Coach sein
-
-        sign_up: Willst du mitmachen? Melde dich hier an!
+            subject: Coach sein
 
       team:
         header: Das Team
         organizer_and_coach:
-          female: Organisatorin, Coach
-          male: Organisator, Coach
+          female: Organisatorin und Coach
+          male: Organisator und Coach
         coach: Coach
 
-      how_to_get_there:
-        header: Wie komme ich zum Event?
-        sub_header: Standort
+      sponsors:
+        header: 'Rails Girls Saarbrücken wird gesponsort von:'
+        contact:
+          header: Wir suchen nach Sponsoren!
+          button: Unterstütze uns
+          subject: Sponsor sein
+
+      location:
+        header: Wegbeschreibung
         content: 'Rails Girls Saarbrücken wird stattfinden in:'
-        google_maps: Du kannst es auch auf %{google_maps} ansehen.
+        google_maps: Auf %{google_maps} ansehen.

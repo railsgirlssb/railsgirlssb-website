@@ -2,9 +2,14 @@
 %html{ lang: "#{I18n.locale}" }
   %head
     = render 'layouts/partials/head'
-  %body
-    = render 'layouts/partials/header'
+  %body.no-js{ class: body_class }
+    %header#home.home{ data: { imagecopyright: 'Copyright Oliver Elm Marketing' } }
+      .row
+        .large-12.columns
+          = yield :header
 
     = yield
 
     = render 'layouts/partials/footer'
+
+    = render 'layouts/partials/javascript_includes'

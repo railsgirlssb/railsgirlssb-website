@@ -1,0 +1,25 @@
+.row#faq{ data: { magellan: { destination: 'faq' } } }
+  .large-12.columns
+    %section.faq.clearfix
+      %h3= t('home.index.faq.header')
+
+      %p
+        %strong= t('home.index.faq.costs.header')
+        %br
+        = t('home.index.faq.costs.content')
+
+      %p
+        %strong= t('home.index.faq.target_audience.header')
+        %br
+        = t('home.index.faq.target_audience.content')
+
+      %p
+        %strong= t('home.index.faq.men_attending.header')
+        %br
+        = t('home.index.faq.men_attending.content')
+
+      %p
+        %strong= t('home.index.faq.want_to_help.header')
+        %br
+        = t('home.index.faq.want_to_help.content')
+        = mail_to 'railsgirlssb@gmail.com', t('home.index.faq.want_to_help.contact.header'), subject: t('home.index.faq.want_to_help.contact.subject'), encode: 'javscript'
