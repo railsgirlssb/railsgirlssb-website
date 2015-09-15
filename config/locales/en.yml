@@ -26,7 +26,7 @@ en:
 
       welcome:
         header: Welcome!
-        content: During the free two-day workshop we'll dive into the world of web applications. Our workshop is open for all girls and women aged 16 and older.
+        content: During the free two-day workshop we'll dive into the world of web applications. Our workshop is open for all girls and women aged 14 and older.
         sign_up: Sign up for free!
 
       features:
@@ -123,7 +123,7 @@ en:
           content: "Nothing, it's free! (incl. food and drinks)"
         target_audience:
           header: Who is the workshop aimed for?
-          content: "It's for girls and women aged 16 and over - no matter if school student, student, trainee, professional, etc. You don't need any previous knowledge for the workshop. But you have to bring your laptop."
+          content: "It's for girls and women aged 14 and over - no matter if school student, student, trainee, professional, etc. You don't need any previous knowledge for the workshop. But you have to bring your laptop."
         men_attending:
           header: Can men attend?
           content: Yes, but they need to be accompanied by an interested lady. Also, girls are given a priority.

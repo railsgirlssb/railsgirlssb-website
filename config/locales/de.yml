@@ -26,7 +26,7 @@ de:
 
       welcome:
         header: Willkommen!
-        content: Während des zweitägigen, kostenlosen Workshops tauchen wir in die Welt der Web App Entwicklung ein. Unser Workshop steht für alle Mädchen und Frauen ab 16 Jahren offen.
+        content: Während des zweitägigen, kostenlosen Workshops tauchen wir in die Welt der Web App Entwicklung ein. Unser Workshop steht für alle Mädchen und Frauen ab 14 Jahren offen.
         sign_up: Jetzt kostenlos anmelden!
 
       features:
@@ -124,7 +124,7 @@ de:
           content: Er ist kostenlos! (inkl. Essen und Getränke)
         target_audience:
           header: Für wen ist der Workshop?
-          content: Er steht allen Mädchen und Frauen ab 16 Jahren offen - egal ob Schülerin, Studentin, Auszubildende, Berufstätige, etc. Für den Workshop brauchst Du keine Vorkenntnisse. Ein Laptop wird jedoch benötigt.
+          content: Er steht allen Mädchen und Frauen ab 14 Jahren offen - egal ob Schülerin, Studentin, Auszubildende, Berufstätige, etc. Für den Workshop brauchst Du keine Vorkenntnisse. Ein Laptop wird jedoch benötigt.
         men_attending:
           header: Können Männer auch teilnehmen?
           content: Ja, aber sie müssen von einer Teilnehmerin begleitet werden. Frauen werden bevorzugt aufgenommen.
