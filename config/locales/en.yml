@@ -23,11 +23,8 @@ en:
     index:
       header: Rails Girls Saarbrücken
       sub_header: 6-7 November 2015
-
-      welcome:
-        header: Welcome!
-        content: During the free two-day workshop we'll dive into the world of web applications. Our workshop is open for all girls and women aged 14 and older.
-        sign_up: Sign up for free!
+      content: During the free two-day workshop for women, we'll dive into the world of web applications.
+      sign_up: Sign up for free!
 
       features:
         learn:

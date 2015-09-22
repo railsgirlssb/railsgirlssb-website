@@ -32,7 +32,7 @@ module HomeHelper
     classes = 'button radius'
     classes +=  ' small' if options[:small].present?
 
-    link_to t('home.index.welcome.sign_up'), sign_up_link, target: '_blank', class: classes
+    link_to t('home.index.sign_up'), sign_up_link, target: '_blank', class: classes
   end
 
 end

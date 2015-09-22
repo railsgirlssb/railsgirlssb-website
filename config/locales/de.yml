@@ -23,11 +23,8 @@ de:
     index:
       header: Rails Girls Saarbrücken
       sub_header: 6-7 November 2015
-
-      welcome:
-        header: Willkommen!
-        content: Während des zweitägigen, kostenlosen Workshops tauchen wir in die Welt der Web App Entwicklung ein. Unser Workshop steht für alle Mädchen und Frauen ab 14 Jahren offen.
-        sign_up: Jetzt kostenlos anmelden!
+      content: Während des zweitägigen, kostenlosen Workshops für Frauen tauchen wir in die Welt der Web App Entwicklung ein.
+      sign_up: Jetzt kostenlos anmelden!
 
       features:
         learn:
