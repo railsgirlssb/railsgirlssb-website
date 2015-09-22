@@ -1,8 +1,8 @@
 en:
   layout:
     head:
-      title: Rails Girls Saarbrücken, 6-7 November 2015
-      description: 'Rails Girls Saarbrücken, 6-7 November 2015: join the free two-day crash-course to the world of web applications with Ruby on Rails.'
+      title: Rails Girls Saarbrücken, November 7, 2015
+      description: 'Rails Girls Saarbrücken, November 7, 2015: join the free two-day crash-course to the world of web applications with Ruby on Rails.'
       keywords: Saarland, Saarbrücken, Saar, Rails, Rails Girls
 
     navigation:
@@ -22,8 +22,8 @@ en:
   home:
     index:
       header: Rails Girls Saarbrücken
-      sub_header: 6-7 November 2015
-      content: During the free two-day workshop for women, we'll dive into the world of web applications.
+      sub_header: November 7, 2015
+      content: "During the free two-day workshop for women, we'll dive into the world of web applications."
       sign_up: Sign up for free!
 
       features:
@@ -42,57 +42,34 @@ en:
 
       schedule:
         header: Schedule
-        day_one:
-          header: Friday, November 6th, 2015
-          installation_party:
-            time: 17:00 - 20:00
-            header: Installation party
-            content: Get to know the attendees a little bit before hand. Bring your laptop, so we can install Ruby on Rails for you.
-            where: 'Where:'
-            more: See map
-          coach_dinner:
-            time: 20:00 -
-            header: Coach dinner
-            content: "All of the coaches are welcome to our coach dinner, where we'll go through the program for the next day."
-        day_two:
-          header: Saturday, November 7th, 2015
-          registration:
-            time: 09:00 - 10:00
-            header: Registration and installation fest
-            content: Registration for the workshop. Repeated opportunity to install Ruby on Rails on your computer.
-          welcome:
-            time: 10:00 - 10:15
-            header: Welcome
-            content: Outline of the day and word from sponsors.
-          design_workshop:
-            time: 10:20 - 10:45
-            header: Designing your web app
-          try_ruby:
-            time: 10:50 - 11:10
-            content: Let's get coding!
-          workshop:
-            time: 11:10 - 13:00
-            header: WORKSHOP
-            content: Jumpstart your first web application.
-          lunch:
-            time: 13:00 - 13:30
-            header: Lunch
-          bentobox:
-            time: 13.30- 13:45
-            header: Understanding Web Apps
-            content: Recap of what we’ve learned.
-          lightning_talks:
-            time: 13:45 - 14:30
-            header: Lightning talks from coaches
-            content: More information coming soon.
-          workshop_extension:
-            time: 14:30 - 16:30
-            header: WORKSHOP
-            content: Extend your application.
-          afterparty:
-            time: 20:00 -
-            header: Afterparty
-            content: Open for everyone, meet cool people interested in tech.
+        sub_header: Saturday, November 7, 2015
+        registration_and_installation_fest:
+          time: 09:00 - 10:00
+          header: Registration and installation fest
+          content: Registration for the workshop. Install Ruby on Rails on your computer.
+        welcome:
+          time: 10:00 - 10:15
+          header: Welcome
+          content: Outline of the day and word from sponsors.
+        workshop:
+          time: 10:15 - 13:00
+          header: WORKSHOP
+          content: Jumpstart your first web application.
+        lunch:
+          time: 13:00 - 14:00
+          header: Lunch
+        lightning_talks:
+          time: 14:00 - 14:30
+          header: Lightning talks from coaches
+          content: More information coming soon.
+        workshop_extension:
+          time: 14:30 - 16:30
+          header: WORKSHOP
+          content: Extend your application.
+        afterparty:
+          time: 17:00 -
+          header: Afterparty
+          content: Open for everyone, meet cool people interested in tech.
 
       information:
         header: Information
@@ -139,7 +116,7 @@ en:
         coach: coach
 
       sponsors:
-        header: 'Rails Girls Saarbrücken is sponsored by:'
+        header: 'Our sponsors'
         contact:
           header: We are looking for sponsors!
           button: Support us
