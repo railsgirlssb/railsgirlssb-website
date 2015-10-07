@@ -102,12 +102,6 @@ de:
         men_attending:
           header: Können Männer auch teilnehmen?
           content: Ja, aber sie müssen von einer Teilnehmerin begleitet werden. Frauen werden bevorzugt aufgenommen.
-        want_to_help:
-          header: Ich kann programmieren - Wie kann ich helfen?
-          content: Wir suchen auch Coaches. Der Ablauf wird vorher zusammen mit den anderen Coaches besprochen.
-          contact:
-            header: Melde dich als Coach
-            subject: Coach sein
 
       team:
         header: Das Team

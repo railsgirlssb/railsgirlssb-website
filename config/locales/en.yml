@@ -101,12 +101,6 @@ en:
         men_attending:
           header: Can men attend?
           content: Yes, but they need to be accompanied by an interested lady. Also, girls are given a priority.
-        want_to_help:
-          header: I know how to program - How can I help?
-          content: We’re also looking for people to be coaches. The schedule will be discussed in advanced with all coaches.
-          contact:
-            header: Sign up as a coach
-            subject: Be a coach
 
       team:
         header: The team
