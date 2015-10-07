@@ -2,7 +2,7 @@ en:
   layout:
     head:
       title: Rails Girls Saarbrücken, November 7, 2015
-      description: 'Rails Girls Saarbrücken, November 7, 2015: join the free two-day crash-course to the world of web applications with Ruby on Rails.'
+      description: 'Rails Girls Saarbrücken, November 7, 2015: join the free crash-course to the world of web applications with Ruby on Rails.'
       keywords: Saarland, Saarbrücken, Saar, Rails, Rails Girls
 
     navigation:
@@ -23,7 +23,7 @@ en:
     index:
       header: Rails Girls Saarbrücken
       sub_header: November 7, 2015
-      content: "During the free two-day workshop for women, we'll dive into the world of web applications."
+      content: "During the free one-day workshop for women, we'll dive into the world of web applications."
       sign_up: Sign up for free!
 
       features:
