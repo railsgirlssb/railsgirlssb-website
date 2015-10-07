@@ -2,7 +2,7 @@ de:
   layout:
     head:
       title: Rails Girls Saarbrücken, 7. November 2015
-      description: 'Rails Girls Saarbrücken, 7. November 2015: Mach beim zweitägigen, kostenlosen Crashkurs in die Welt der Web Apps mit Ruby on Rails mit.'
+      description: 'Rails Girls Saarbrücken, 7. November 2015: Mach beim eintägigen, kostenlosen Crashkurs in die Welt der Web Apps mit Ruby on Rails mit.'
       keywords: Saarland, Saarbrücken, Saar, Rails, Rails Girls
 
     navigation:
@@ -23,7 +23,7 @@ de:
     index:
       header: Rails Girls Saarbrücken
       sub_header: 7. November 2015
-      content: Während des zweitägigen, kostenlosen Workshops für Frauen tauchen wir in die Welt der Web App Entwicklung ein.
+      content: Während des eintägigen, kostenlosen Workshops für Frauen tauchen wir in die Welt der Web App Entwicklung ein.
       sign_up: Jetzt kostenlos anmelden!
 
       features:
