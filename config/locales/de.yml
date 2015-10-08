@@ -35,10 +35,10 @@ de:
           content: deinen eigenen Laptop, Neugier und einen Hauch von Fantasie!
         help:
           header: Willst du helfen?
-          content: Wir suchen Freiwillige und Coaches.
+          content: Wir suchen Freiwillige.
           contact:
             header: Schreib uns!
-            subject: Freiwilliger oder Coach sein
+            subject: Freiwilliger sein
 
       schedule:
         header: Agenda

@@ -35,10 +35,10 @@ en:
           content: your own laptop, curiosity and a sprinkle of imagination!
         help:
           header: Want to help?
-          content: We are looking for volunteers and coaches.
+          content: We are looking for volunteers.
           contact:
             header: Email us!
-            subject: Be a volunteer or coach
+            subject: Be a volunteer
 
       schedule:
         header: Schedule
