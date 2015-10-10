@@ -14,6 +14,11 @@
 
             %p.header__text= t('home.index.content')
 
-            .header__buttons
-              %p.hide-for-small-only= sign_up_button
-              %p.show-for-small-only= sign_up_button(small: true)
+            .row.collapse
+              .columns.large-5.medium-6.header__buttons
+                %p.hide-for-small-only= sign_up_button
+                %p.show-for-small-only= sign_up_button(small: true)
+
+              .columns.large-1.medium-2.end.header__participant-count.jsCarticipantCount.hide
+                %i.fa.fa-users.fa-lg
+                %span
