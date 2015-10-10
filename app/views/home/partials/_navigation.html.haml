@@ -1,18 +1,18 @@
 .navigation.contain-to-grid{ data: { magellan: { expedition: 'fixed' } } }
-  %nav.top-bar{ data: { topbar: '' } }
+  %nav.navigation__content.top-bar{ data: { topbar: '' } }
 
-    %ul.language-area.hide-for-small-only
+    %ul.navigation__language-switch.hide-for-small-only
       %li= language_link
 
-    %ul.title-area
-      %li.name= link_to image_tag('railsgirls-logo.png', alt: 'Rails Girls'), '/'
-      %li.toggle-topbar.menu-icon= link_to content_tag(:span, 'Menu'), '#'
+    %ul.navigation__title-area.title-area
+      %li.navigation__title-area__logo.name= link_to image_tag('railsgirls-logo.png', alt: 'Rails Girls'), '/'
+      %li.navigation__title-area__menu-icon.toggle-topbar.menu-icon= link_to content_tag(:span, 'Menu'), '#'
 
-    .top-bar-section
+    .navigation__links.top-bar-section
       %ul
         %li.active{ data: { magellan: { arrival: 'home' } } }= link_to t('layout.navigation.home'), i18n_link_anchor('home')
         %li{ data: { magellan: { arrival: 'schedule' } } }= link_to t('layout.navigation.schedule'), i18n_link_anchor('schedule')
         %li{ data: { magellan: { arrival: 'information' } } }= link_to t('layout.navigation.information'), i18n_link_anchor('information')
         %li{ data: { magellan: { arrival: 'team' } } }= link_to t('layout.navigation.team'), i18n_link_anchor('team')
         %li{ data: { magellan: { arrival: 'location' } } }= link_to t('layout.navigation.location'), i18n_link_anchor('location')
-        %li.show-for-small-only= language_link
+        %li.navigation__links__language-switch.show-for-small-only= language_link

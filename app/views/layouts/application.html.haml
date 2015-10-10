@@ -3,11 +3,6 @@
   %head
     = render 'layouts/partials/head'
   %body.no-js{ class: body_class }
-    %header.home{ id: i18n_link_id_for_anchor('home'), data: { magellan: { destination: 'home' } } }
-      .row
-        .large-12.columns
-          = yield :header
-
     = yield
 
     = render 'layouts/partials/footer'
