@@ -9,16 +9,18 @@
             %b= t('home.index.location.content')
             %br
             %strong
-            Science Park 2
+            = link_to 'Ligatura', 'http://www.ligatura.co/', target: '_blank'
             %br
-            66123 Saarbrücken
+            Europaallee 27
+            %br
+            66113 Saarbrücken
             %br
             = t('home.index.location.germany')
 
 
             %span.map-link.show-for-small-only
-              = t('home.index.location.google_maps', google_maps: link_to('Google Maps', 'https://www.google.de/maps/place/Avarteq+GmbH/@49.256197,7.038519,3205m/data=!3m1!1e3!4m2!3m1!1s0x0:0x522f0a178689cd08!6m1!1e1', target: '_blank')).html_safe
+              = t('home.index.location.google_maps', google_maps: link_to('Google Maps', 'https://www.google.com/maps/place/Ligatura/@49.2419916,6.9898641,798m/data=!3m1!1e3!4m2!3m1!1s0x0:0xf88e8bcb87e23bdc!6m1!1e1', target: '_blank')).html_safe
 
         .columns.clearfix.large-9.medium-12.hide-for-small-only
           .map
-            %iframe{ src: 'https://www.google.de/maps/embed?pb=!1m18!1m12!1m3!1d8381.64042250857!2d7.037902605609996!3d49.25651765786278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4795b65f7a2346b5%3A0x522f0a178689cd08!2sAvarteq+GmbH!5e1!3m2!1sen!2sde!4v1440404979117', width: '600', height: '450', frameborder: '0', style: 'border: 0;', allowfullscreen: '' }
+            %iframe{ src: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3472.8467783932215!2d6.98986406150406!3d49.24199162724787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf88e8bcb87e23bdc!2sLigatura!5e1!3m2!1sen!2sde!4v1444325249520', width: '600', height: '450', frameborder: '0', style: 'border: 0;', allowfullscreen: '' }
