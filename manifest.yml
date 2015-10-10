@@ -1,4 +1,4 @@
---t -
+---
 applications:
 - name: railsgirlssb-green
   memory: 512M
