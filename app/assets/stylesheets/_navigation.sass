@@ -38,13 +38,10 @@
 
   &__title-area
 
-    @media #{$small-only}
-      position: static
-
     @media #{$medium-only}
       margin:
-        right: rem-calc(100)
-      position: static
+        right: rem-calc(100) !important
+      position: static !important
 
     &__logo
       @media #{$small-only}
@@ -59,7 +56,7 @@
     &__menu-icon
       top: rem-calc(25) !important
       margin:
-        top: -rem-calc(26) !important
+        top: - rem-calc(26) !important
       padding:
         top: rem-calc(10)
 
