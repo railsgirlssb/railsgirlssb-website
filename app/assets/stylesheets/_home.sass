@@ -8,7 +8,7 @@ body.home
       -moz-background-size: cover
       -o-background-size: cover
       color: $white
-      padding: 200px 0
+      padding: rem-calc(200) 0
 
       @media #{$small-only}
         text-align: center
@@ -19,14 +19,14 @@ body.home
 
       &__content
         padding:
-          left: 10px
+          left: rem-calc(10)
 
         @media #{$small-only}
           padding:
             left: 0 !important
 
       &__text
-        text-shadow: 1px 1px $black
+        text-shadow: rem-calc(1) rem-calc(1) $black
 
       &__buttons
         a, p
@@ -35,21 +35,21 @@ body.home
 
       &__participant-count
         margin:
-          top: 15px
+          top: rem-calc(15)
 
         @media #{$large-up}
           margin:
-            left: 20px
+            left: rem-calc(20)
 
       h1
         color: $primary-color
         line-height: 1
-        text-shadow: 1px 1px #460D0D
+        text-shadow: rem-calc(1) rem-calc(1) #460D0D
 
       small
         color: $white
         font-size: 50%
-        text-shadow: 1px 1px $black
+        text-shadow: rem-calc(1) rem-calc(1) $black
 
 
     .features
@@ -67,7 +67,7 @@ body.home
 
       div.columns
         margin:
-          top: 15px
+          top: rem-calc(15)
 
       @media #{$small-only}
         &__item
@@ -93,13 +93,13 @@ body.home
 
       text-align: center
       padding:
-        bottom: 60px
+        bottom: rem-calc(60)
 
       &__member
         display: inline-block
-        padding: 0 0 20px
-        min-width: 300px
-        max-width: 300px
+        padding: 0 0 rem-calc(20)
+        min-width: rem-calc(300)
+        max-width: rem-calc(300)
 
         &__image
           float: left
@@ -108,7 +108,7 @@ body.home
 
         &__content
           margin:
-            left: 10px
+            left: rem-calc(10)
           float: left
           text-align: left
 
@@ -124,20 +124,20 @@ body.home
 
       text-align: center
       padding:
-        top: 60px
+        top: rem-calc(60)
       border:
         bottom: none
 
       ul
-        margin: 25px 0
+        margin: rem-calc(25) 0
 
         li
           display: inline-block
           list-style: none
-          margin: 15px 25px
+          margin: rem-calc(15) rem-calc(25)
 
           img
-            width: 185px
+            width: rem-calc(185)
 
 
     .location
@@ -155,7 +155,7 @@ body.home
 
       &__map-link
         margin:
-          top: 20px
+          top: rem-calc(20)
 
       &__map
         float: right
@@ -171,18 +171,18 @@ body.home
       @extend .panel
 
       text-align: center
-      height: 98px
+      height: rem-calc(98)
 
       @media #{$small-only}
-        height: 151px
+        height: rem-calc(151)
 
       a
-        border: 1px solid $white
+        border: rem-calc(1) solid $white
         margin:
-          left: 25px
+          left: rem-calc(25)
 
         @media #{$small-only}
-          margin: 25px auto 0
+          margin: rem-calc(25) auto 0
 
       @media #{$medium-up}
         .hide-for-small-only
@@ -201,4 +201,4 @@ body.home
 
       h2
         margin:
-          top: 50px
+          top: rem-calc(50)

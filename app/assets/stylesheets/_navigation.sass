@@ -14,17 +14,17 @@
           color: $white
 
           span::after
-            box-shadow: 0 0 0 1px $white, 0 7px 0 1px $white, 0 14px 0 1px $white
+            box-shadow: 0 0 0 rem-calc(1) $white, 0 rem-calc(7) 0 rem-calc(1) $white, 0 rem-calc(14) 0 rem-calc(1) $white
 
   &__language-switch
     float: right
 
     @media #{$small-only}, #{$medium-only}
-      right: 96px
+      right: rem-calc(96)
       position: absolute
 
     li
-      padding: 0 10px
+      padding: 0 rem-calc(10)
 
       &:hover
         background-color: scale-color($primary-color, $lightness: -14%)
@@ -43,7 +43,7 @@
 
     @media #{$medium-only}
       margin:
-        right: 100px
+        right: rem-calc(100)
       position: static
 
     &__logo
@@ -52,16 +52,16 @@
 
       img
         margin:
-          top: 13px
+          top: rem-calc(13)
           left: rem-calc(15)
-        width: 140px
+        width: rem-calc(140)
 
     &__menu-icon
-      top: 25px !important
+      top: rem-calc(25) !important
       margin:
-        top: -26px !important
+        top: -rem-calc(26) !important
       padding:
-        top: 10px
+        top: rem-calc(10)
 
       &:hover
         height: 3.125rem

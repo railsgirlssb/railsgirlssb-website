@@ -24,7 +24,7 @@
     li
       float: left
       padding:
-        right: 20px
+        right: rem-calc(20)
 
       @media #{$small-only}, #{$medium-only}
         padding:
@@ -35,8 +35,8 @@
     font-size: rem-calc(12)
     color: $white
     position: absolute
-    left: 15px
-    top: 45px
+    left: rem-calc(15)
+    top: rem-calc(45)
 
     @media #{$small-only}, #{$medium-only}
       position: inherit
@@ -53,4 +53,4 @@
 
     @media #{$small-only}, #{$medium-only}
       margin:
-        top: 30px
+        top: rem-calc(30)
