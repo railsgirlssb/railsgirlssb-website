@@ -1,32 +1,16 @@
-%footer.panel
+%footer.footer
   .row
     .columns.large-8.medium-12
-      %ul.links
+      %ul.footer__links
         %li= link_to t('layout.footer.navigation.home'), root_path
         %li= link_to t('layout.footer.navigation.legal_info'), '/legal_info'
         %li= link_to 'railsgirls.com', 'http://railsgirls.com', target: '_blank'
 
-      %small.copyright
+      %small.footer__copyright
         &copy; 2015 Rails Girls Saarbrücken
 
-    .columns.large-4.medium-12.social-media
+    .columns.large-4.medium-12.footer__social-media
       = mail_to 'railsgirlssb@gmail.com', round_icon('envelope', size: '2x'), encode: 'javascript', class: 'icon-email'
       = twitter_icon_link('RailsGirlsSB', size: '2x')
       = facebook_icon_link('RailsGirlsSB', size: '2x')
       = github_icon_link('railsgirlssb', size: '2x')
-
-- if Rails.env.production?
-  :javascript
-    var _paq = _paq || [];
-    _paq.push(["setCookieDomain", "*.railsgirlssb.de"]);
-    _paq.push(["setDoNotTrack", true]);
-    _paq.push(['trackPageView']);
-    _paq.push(['enableLinkTracking']);
-    (function() {
-      var u="//104.155.56.114/";
-      _paq.push(['setTrackerUrl', u+'piwik.php']);
-      _paq.push(['setSiteId', 1]);
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-    })();
-

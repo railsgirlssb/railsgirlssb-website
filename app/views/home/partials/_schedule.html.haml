@@ -1,32 +1,32 @@
 .row{ id: i18n_link_id_for_anchor('schedule'), data: { magellan: { destination: 'schedule' } } }
   .large-12.columns
-    %section.schedule.clearfix
+    %section.schedule
       %h3= t('home.index.schedule.header')
 
       %h4= t('home.index.schedule.sub_header')
 
       .row
         .columns.large-2.small-12= t('home.index.schedule.registration_and_installation_fest.time')
-        .columns.large-10.small-12.item
+        .columns.large-10.small-12.schedule__item
           %h5= t('home.index.schedule.registration_and_installation_fest.header')
           = t('home.index.schedule.registration_and_installation_fest.content')
 
         .columns.large-2.small-12= t('home.index.schedule.welcome.time')
-        .columns.large-10.small-12.item
+        .columns.large-10.small-12.schedule__item
           %h5= t('home.index.schedule.welcome.header')
           = t('home.index.schedule.welcome.content')
 
         .columns.large-2.small-12= t('home.index.schedule.workshop.time')
-        .columns.large-10.small-12.item
+        .columns.large-10.small-12.schedule__item
           %h5= t('home.index.schedule.workshop.header')
           = t('home.index.schedule.workshop.content')
 
         .columns.large-2.small-12= t('home.index.schedule.lunch.time')
-        .columns.large-10.small-12.item
+        .columns.large-10.small-12.schedule__item
           %h5= t('home.index.schedule.lunch.header')
 
         .columns.large-2.small-12= t('home.index.schedule.lightning_talks.time')
-        .columns.large-10.small-12.item
+        .columns.large-10.small-12.schedule__item
           %h5
             - if I18n.locale == :en
               = t('home.index.schedule.lightning_talks.header')
@@ -37,11 +37,11 @@
           = t('home.index.schedule.lightning_talks.content')
 
         .columns.large-2.small-12= t('home.index.schedule.workshop_extension.time')
-        .columns.large-10.small-12.item
+        .columns.large-10.small-12.schedule__item
           %h5= t('home.index.schedule.workshop_extension.header')
           = t('home.index.schedule.workshop_extension.content')
 
         .columns.large-2.small-12= t('home.index.schedule.afterparty.time')
-        .columns.large-10.small-12.item
+        .columns.large-10.small-12.schedule__item
           %h5= t('home.index.schedule.afterparty.header')
           = t('home.index.schedule.afterparty.content')

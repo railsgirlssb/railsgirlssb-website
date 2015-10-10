@@ -1,7 +1,7 @@
 /* home -------------------------- */
 body.home
   &.index
-    header.home
+    .header
       background: url(asset-path('header.png')) no-repeat 50% 50%
       background-size: cover
       -webkit-background-size: cover
@@ -9,6 +9,33 @@ body.home
       -o-background-size: cover
       color: $white
       padding: 200px 0
+
+      @media #{$small-only}
+        text-align: center
+
+      &__text
+        text-shadow: 1px 1px $black
+        margin:
+          bottom: 0
+
+      &__buttons
+        .hide-for-small-only,
+        .show-for-small-only
+          margin:
+            top: 20px
+            bottom: 0
+
+      &__logo
+        padding:
+          right: 1.25rem
+
+      &__content
+        padding:
+          left: 10px
+
+        @media #{$small-only}
+          padding:
+            left: 0 !important
 
       h1
         color: $primary-color
@@ -20,71 +47,82 @@ body.home
         font-size: 50%
         text-shadow: 1px 1px $black
 
-      p.text
-        text-shadow: 1px 1px $black
-        margin-bottom: 0
 
-      p.hide-for-small-only,
-      p.show-for-small-only
-        margin-top: 20px
-        margin-bottom: 0
+    .features
+      @extend .clearfix
+
+      @media #{$small-only}
+        text-align: center
+
+
+    .schedule
+      @extend .clearfix
+
+      @media #{$small-only}, #{$medium-only}
+        text-align: center
 
       div.columns
-        float: left
+        margin:
+          top: 15px
 
-        &.logo
-          padding-right: 1.25rem
+      @media #{$small-only}
+        &__item
+          margin-top: 0
 
-        div.header-content
-          padding-left: 10px
 
-    div.panel.action
+    .information
+      @extend .clearfix
+
       text-align: center
-      height: 98px
+      border:
+        bottom: none
 
-      a
-        border: 1px solid $white
-        margin-left: 25px
 
-    section.schedule div.columns
-      margin-top: 15px
+    .faq
+      @extend .clearfix
 
-    section.information
-      text-align: center
-      border-bottom: none
-
-    section.faq
       text-align: center
 
-    section.team
-      text-align: center
-      padding-bottom: 60px
 
-      div.member
+    .team
+      @extend .clearfix
+
+      text-align: center
+      padding:
+        bottom: 60px
+
+      &__member
         display: inline-block
         padding: 0 0 20px
         min-width: 300px
         max-width: 300px
 
-        img
+        &__image
           float: left
-          margin-bottom: 0
+          margin:
+            bottom: 0
 
-        div.member-content
-          margin-left: 10px
+        &__content
+          margin:
+            left: 10px
           float: left
           text-align: left
 
-        span.name
+        &__name
           color: $primary-color
 
-    section.sponsors
-      text-align: center
-      padding-top: 60px
-      border-bottom: none
+      .columns
+        @extend .clearfix
 
-      p
-        font-size: 19px
+
+    .sponsors
+      @extend .clearfix
+
+      text-align: center
+      padding:
+        top: 60px
+      border:
+        bottom: none
 
       ul
         margin: 25px 0
@@ -97,28 +135,66 @@ body.home
           img
             width: 185px
 
-      div.buttons-wrapper
-        padding-top: 20px
 
-    section.location
-      border-bottom: none
+    .location
+      border:
+        bottom: none
 
-      p.description
+      @media #{$small-only}, #{$medium-only}
+        text-align: center
+
+      &__description
         float: left
 
-      span.map-link
-        margin-top: 20px
+        @media #{$small-only}, #{$medium-only}
+          float: none
 
-      div.map
+      &__map-link
+        margin:
+          top: 20px
+
+      &__map
         float: right
+
+        @media #{$small-only}, #{$medium-only}
+          float: none
+
+      .columns
+        @extend .clearfix
+
+
+    .action
+      @extend .panel
+
+      text-align: center
+      height: 98px
+
+      @media #{$small-only}
+        height: 151px
+
+      a
+        border: 1px solid $white
+        margin:
+          left: 25px
+
+        @media #{$small-only}
+          margin: 25px auto 0
+
+      @media #{$medium-up}
+        .hide-for-small-only
+          display: inline-block !important
+
 
     section a
       text-decoration: underline
 
+
   &.legal-info
     section
       text-align: center
-      border-bottom: none
+      border:
+        bottom: none
 
       h2
-        margin-top: 50px
+        margin:
+          top: 50px

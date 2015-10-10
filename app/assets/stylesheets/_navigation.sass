@@ -1,26 +1,33 @@
 /* navigation -------------------------- */
-div.navigation
-  nav.top-bar
+.navigation
+
+  @media #{$small-only}, #{$medium-only}
+    &.fixed
+      display: none
+
+  &__content
     text-align: center
 
-    &.expanded ul.title-area li.toggle-topbar
-      &.menu-icon
-        top: 25px !important
+    &.expanded
+      .navigation__title-area__menu-icon
+        a
+          color: $white
 
-      a
-        color: $white
+          span::after
+            box-shadow: 0 0 0 1px $white, 0 7px 0 1px $white, 0 14px 0 1px $white
 
-      span::after
-        box-shadow: 0 0 0 1px $white, 0 7px 0 1px $white, 0 14px 0 1px $white
+  &__language-switch
+    float: right
 
-    ul.language-area
-      float: right
+    @media #{$small-only}, #{$medium-only}
+      right: 96px
+      position: absolute
 
-      li
-        padding: 0 10px
+    li
+      padding: 0 10px
 
-        &:hover
-          background-color: scale-color($primary-color, $lightness: -14%)
+      &:hover
+        background-color: scale-color($primary-color, $lightness: -14%)
 
       a
         color: white
@@ -29,24 +36,50 @@ div.navigation
         line-height: 3.125rem
         text-transform: uppercase
 
-    ul.title-area li.name img
-      margin-top: 13px
-      margin-left: rem-calc(15)
-      width: 140px
+  &__title-area
 
-    li.toggle-topbar.menu-icon
-      margin-top: -26px
-      padding-top: 10px
+    @media #{$small-only}
+      position: static
+
+    @media #{$medium-only}
+      margin:
+        right: 100px
+      position: static
+
+    &__logo
+      @media #{$small-only}
+        float: left
+
+      img
+        margin:
+          top: 13px
+          left: rem-calc(15)
+        width: 140px
+
+    &__menu-icon
+      top: 25px !important
+      margin:
+        top: -26px !important
+      padding:
+        top: 10px
 
       &:hover
         height: 3.125rem
         background-color: scale-color($primary-color, $lightness: -14%)
 
-    div.top-bar-section
-      position: static
+  &__links
+    position: static
 
-      ul
-        display: inline-block
+    ul
+      display: inline-block
 
-        li a
+      @media #{$medium-only}
+        display: inline !important
+
+      li
+        a
           text-transform: uppercase
+
+    @media #{$small-only}
+      &__language-switch
+        display: list-item !important

@@ -4,8 +4,8 @@
       .row
         %h3= t('home.index.location.header')
 
-        .columns.clearfix.large-3.medium-12.small-12
-          %p.description
+        .columns.large-3.medium-12.small-12
+          %p.location__description
             %b= t('home.index.location.content')
             %br
             %strong
@@ -18,9 +18,9 @@
             = t('home.index.location.germany')
 
 
-            %span.map-link.show-for-small-only
+            %span.location__map-link.show-for-small-only
               = t('home.index.location.google_maps', google_maps: link_to('Google Maps', 'https://www.google.com/maps/place/Ligatura/@49.2419916,6.9898641,798m/data=!3m1!1e3!4m2!3m1!1s0x0:0xf88e8bcb87e23bdc!6m1!1e1', target: '_blank')).html_safe
 
-        .columns.clearfix.large-9.medium-12.hide-for-small-only
-          .map
+        .columns.large-9.medium-12.hide-for-small-only
+          .location__map
             %iframe{ src: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3472.8467783932215!2d6.98986406150406!3d49.24199162724787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf88e8bcb87e23bdc!2sLigatura!5e1!3m2!1sen!2sde!4v1444325249520', width: '600', height: '450', frameborder: '0', style: 'border: 0;', allowfullscreen: '' }
