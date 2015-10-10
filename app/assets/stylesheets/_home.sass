@@ -13,18 +13,6 @@ body.home
       @media #{$small-only}
         text-align: center
 
-      &__text
-        text-shadow: 1px 1px $black
-        margin:
-          bottom: 0
-
-      &__buttons
-        .hide-for-small-only,
-        .show-for-small-only
-          margin:
-            top: 20px
-            bottom: 0
-
       &__logo
         padding:
           right: 1.25rem
@@ -36,6 +24,22 @@ body.home
         @media #{$small-only}
           padding:
             left: 0 !important
+
+      &__text
+        text-shadow: 1px 1px $black
+
+      &__buttons
+        a, p
+          margin:
+            bottom: 0
+
+      &__participant-count
+        margin:
+          top: 15px
+
+        @media #{$large-up}
+          margin:
+            left: 20px
 
       h1
         color: $primary-color
