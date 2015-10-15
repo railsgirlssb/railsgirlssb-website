@@ -35,4 +35,64 @@ module HomeHelper
     link_to t('home.index.sign_up'), sign_up_link, target: '_blank', class: classes
   end
 
+  def team_members
+    [
+      {
+        image: 'team/corinna-wiesner.jpg',
+        name: 'Corinna Wiesner',
+        role: t('home.index.team.organizer_and_coach.female'),
+        twitter: 'walkertowski',
+        github: 'corinnawiesner'
+      },
+      {
+        image: 'team/robert-gogolok.jpg',
+        name: 'Robert Gogolok',
+        role: t('home.index.team.organizer_and_coach.male'),
+        twitter: 'gogolok',
+        github: 'gogolok'
+      },
+      {
+        image: 'team/andreas-steinel.jpg',
+        name: 'Andreas Steinel',
+        role: t('home.index.team.coach'),
+        twitter: 'lnxbil',
+        github: 'lnxbil'
+      },
+      {
+        image: 'team/kerstin-reese.jpg',
+        name: 'Kerstin Reese',
+        role: t('home.index.team.coach'),
+        twitter: 'kerstinreese',
+        github: 'kerstinreese'
+      },
+      {
+        image: 'team/marcel-stegmann.jpg',
+        name: 'Marcel Stegmann',
+        role: t('home.index.team.coach'),
+        twitter: 'dauerschreiber',
+        github: 'mstegmann-avarteq'
+      },
+      {
+        image: 'team/monika-dondorf.jpg',
+        name: 'Monika Dondorf',
+        role: t('home.index.team.coach'),
+        twitter: 'santa_nika'
+      },
+      {
+        image: 'team/sven-schmidt.jpg',
+        name: 'Sven Schmidt',
+        role: t('home.index.team.coach'),
+        twitter: 'AVTQ_Sven',
+        github: 'schmidtsv'
+      },
+      {
+        image: 'team/markus-schwed.jpg',
+        name: 'Markus Schwed',
+        role: t('home.index.team.coach'),
+        twitter: 'markusschwed',
+        github: 'sweed'
+      }
+    ]
+  end
+
 end
