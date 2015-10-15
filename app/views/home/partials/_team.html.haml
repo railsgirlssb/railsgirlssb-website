@@ -4,78 +4,14 @@
       .row
         %h3= t('home.index.team.header')
 
-        .columns.large-4.medium-6.small-12.large-uncentered.medium-uncentered.small-centered
-          .team__member
-            = image_tag 'team/corinna-wiesner.jpg', class: 'team__member__image'
-            .team__member__content
-              %span.team__member__name= 'Corinna Wiesner'
-              %br
-              %i= t('home.index.team.organizer_and_coach.female')
-              %div
-                = twitter_icon_link('walkertowski')
-                = github_icon_link('corinnawiesner')
-
-        .columns.large-4.medium-6.small-12.large-uncentered.medium-uncentered.small-centered
-          .team__member
-            = image_tag 'team/robert-gogolok.jpg', class: 'team__member__image'
-            .team__member__content
-              %span.team__member__name= 'Robert Gogolok'
-              %br
-              %i= t('home.index.team.organizer_and_coach.male')
-              %div
-                = twitter_icon_link('gogolok')
-                = github_icon_link('gogolok')
-
-        .columns.large-4.medium-6.small-12.large-uncentered.medium-uncentered.small-centered
-          .team__member
-            = image_tag 'team/andreas-steinel.jpg', class: 'team__member__image'
-            .team__member__content
-              %span.team__member__name= 'Andreas Steinel'
-              %br
-              %i= t('home.index.team.coach')
-              %div
-                = twitter_icon_link('lnxbil')
-                = github_icon_link('lnxbil')
-
-        .columns.large-4.medium-6.small-12.large-uncentered.medium-uncentered.small-centered
-          .team__member
-            = image_tag 'team/kerstin-reese.jpg', class: 'team__member__image'
-            .team__member__content
-              %span.team__member__name= 'Kerstin Reese'
-              %br
-              %i= t('home.index.team.coach')
-              %div
-                = twitter_icon_link('kerstinreese')
-                = github_icon_link('kerstinreese')
-
-        .columns.large-4.medium-6.small-12.large-uncentered.medium-uncentered.small-centered
-          .team__member
-            = image_tag 'team/marcel-stegmann.jpg', class: 'team__member__image'
-            .team__member__content
-              %span.team__member__name= 'Marcel Stegmann'
-              %br
-              %i= t('home.index.team.coach')
-              %div
-                = twitter_icon_link('dauerschreiber')
-                = github_icon_link('mstegmann-avarteq')
-
-        .columns.large-4.medium-6.small-12.large-uncentered.medium-uncentered.small-centered
-          .team__member
-            = image_tag 'team/monika-dondorf.jpg', class: 'team__member__image'
-            .team__member__content
-              %span.team__member__name= 'Monika Dondorf'
-              %br
-              %i= t('home.index.team.coach')
-              %div
-                = twitter_icon_link('santa_nika')
-
-        .columns.large-4.medium-6.small-12.large-uncentered.medium-uncentered.small-centered
-          .team__member
-            = image_tag 'team/sven-schmidt.jpg', class: 'team__member__image'
-            .team__member__content
-              %span.team__member__name= 'Sven Schmidt'
-              %br
-              %i= t('home.index.team.coach')
-              %div
-                = twitter_icon_link('AVTQ_Sven')
-                = github_icon_link('schmidtsv')
+        - team_members.each do |team_member|
+          .columns.large-4.medium-6.small-12.large-uncentered.medium-uncentered.small-centered
+            .team__member
+              = image_tag team_member[:image], class: 'team__member__image'
+              .team__member__content
+                %span.team__member__name= team_member[:name]
+                %br
+                %i= team_member[:role]
+                %div
+                  = twitter_icon_link(team_member[:twitter])
+                  = github_icon_link(team_member[:github])
