@@ -17,11 +17,4 @@
 
 $(function() {
   $(document).foundation();
-
-  jQuery.getJSON('http://railsgirlssb-wufoo-count.de.a9sapp.eu/', function(json) {
-    if(json.count > 10) {
-      $('.jsCarticipantCount').removeClass('hide');
-      $('.jsCarticipantCount span').html(json.count);
-    }
-  });
 });

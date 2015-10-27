@@ -14,7 +14,7 @@ module HomeHelper
     classes = 'button radius'
     classes +=  ' small' if options[:small].present?
 
-    link_to t('home.index.information.sign_up.button'), sign_up_link, target: '_blank', class: classes
+    link_to t('home.index.information.sign_up.button'), "#", class: classes
   end
 
   # options:
@@ -32,7 +32,7 @@ module HomeHelper
     classes = 'button radius'
     classes +=  ' small' if options[:small].present?
 
-    link_to t('home.index.sign_up'), sign_up_link, target: '_blank', class: classes
+    link_to t('home.index.sign_up'), "#", class: classes
   end
 
   def team_members
