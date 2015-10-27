@@ -24,7 +24,7 @@ de:
       header: Rails Girls Saarbrücken
       sub_header: 7. November 2015
       content: Während des kostenlosen Workshops für Frauen tauchen wir in die Welt der Web App Entwicklung ein.
-      sign_up: Jetzt kostenlos anmelden!
+      sign_up: Anmeldung geschlossen!
 
       features:
         learn:
@@ -89,7 +89,7 @@ de:
 
         sign_up:
           text: Willst du mitmachen?
-          button: Jetzt kostenlos anmelden!
+          button: Anmeldung geschlossen!
 
       faq:
         header: FAQ
