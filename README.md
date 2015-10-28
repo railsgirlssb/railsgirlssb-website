@@ -16,3 +16,9 @@ Check whether everything works correctly. Afterwards make map domains with:
 ```
 ./bin/deploy.sh green
 ```
+
+## Environment Variables
+
+| Variable | Values | Description |
+-----------------------------------
+| APP_SIGN_UP_CLOSED | *yes* or anything else | If set to *yes*, sign up is disabled. |

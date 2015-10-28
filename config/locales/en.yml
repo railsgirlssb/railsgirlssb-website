@@ -25,6 +25,7 @@ en:
       sub_header: November 7, 2015
       content: "During the free one-day workshop for women, we'll dive into the world of web applications."
       sign_up: Sign up for free!
+      sign_up_closed: Sign up closed!
 
       features:
         learn:
@@ -89,6 +90,8 @@ en:
         sign_up:
           text: Want to join us?
           button: Sign up for free!
+        sign_up_closed:
+          button: Sign up closed!
 
       faq:
         header: FAQ

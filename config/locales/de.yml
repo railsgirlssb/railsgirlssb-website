@@ -25,6 +25,7 @@ de:
       sub_header: 7. November 2015
       content: Während des kostenlosen Workshops für Frauen tauchen wir in die Welt der Web App Entwicklung ein.
       sign_up: Jetzt kostenlos anmelden!
+      sign_up_closed: Anmeldung beendet!
 
       features:
         learn:
@@ -90,6 +91,8 @@ de:
         sign_up:
           text: Willst du mitmachen?
           button: Jetzt kostenlos anmelden!
+        sign_up_closed:
+          button: Anmeldung beendet
 
       faq:
         header: FAQ
