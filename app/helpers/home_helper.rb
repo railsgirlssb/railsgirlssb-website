@@ -91,6 +91,13 @@ module HomeHelper
         role: t('home.index.team.coach'),
         twitter: 'markusschwed',
         github: 'sweed'
+      },
+      {
+        image: 'team/thomas-himbert.jpg',
+        name: 'Thomas Himbert',
+        role: t('home.index.team.coach'),
+        twitter: 'chucky4711',
+        github: 'th1988'
       }
     ]
   end
