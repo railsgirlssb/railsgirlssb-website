@@ -44,8 +44,8 @@ then
   cf unmap-route $app_to_deactivate www.railsgirlssb.de
   cf map-route $app_to_activate www.railsgirlssb.de
 
-  cf unmap-route $app_to_deactivate de.a9sapp.eu -n railsgirlssb
-  cf map-route $app_to_activate de.a9sapp.eu -n railsgirlssb
+  cf unmap-route $app_to_deactivate aws.ie.a9sapp.eu -n railsgirlssb
+  cf map-route $app_to_activate aws.ie.a9sapp.eu -n railsgirlssb
 
   cf stop $app_to_deactivate
 fi

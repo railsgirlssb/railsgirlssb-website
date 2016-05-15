@@ -3,22 +3,20 @@ applications:
 - name: railsgirlssb-green
   memory: 512M
   instances: 2
-  buildpack: http://github.com/cloudfoundry/ruby-buildpack.git#v1.3.1
+  buildpack: http://github.com/cloudfoundry/ruby-buildpack.git
   command: bundle exec unicorn -p $PORT
   host: railsgirlssb-green
-  domain: de.a9sapp.eu
+  domain: aws.ie.a9sapp.eu
   path: .
   env:
     RACK_ENV: production
-    STACK: cedar
 - name: railsgirlssb-blue
   memory: 512M
   instances: 2
-  buildpack: http://github.com/cloudfoundry/ruby-buildpack.git#v1.3.1
+  buildpack: http://github.com/cloudfoundry/ruby-buildpack.git
   command: bundle exec unicorn -p $PORT
   host: railsgirlssb-blue
-  domain: de.a9sapp.eu
+  domain: aws.ie.a9sapp.eu
   path: .
   env:
     RACK_ENV: production
-    STACK: cedar
