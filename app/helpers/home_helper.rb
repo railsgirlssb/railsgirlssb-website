@@ -1,10 +1,24 @@
 module HomeHelper
 
+  def sign_up_closed?
+    ENV["APP_SIGN_UP_CLOSED"] == "yes"
+  end
+
   def sign_up_link
+    return "#;" if sign_up_closed?
+
     if I18n.locale == :en
       'https://railsgirlssb.wufoo.com/forms/apply-for-railsgirls-saarbracken-7th-november-2015/'
     else
       'https://railsgirlssb.wufoo.com/forms/anmeldung-railsgirls-saarbracken-7-november-2015/'
+    end
+  end
+
+  def sign_up_link_target
+    if sign_up_closed?
+      "_self"
+    else
+      "_blank"
     end
   end
 
@@ -14,7 +28,10 @@ module HomeHelper
     classes = 'button radius'
     classes +=  ' small' if options[:small].present?
 
-    link_to t('home.index.information.sign_up.button'), sign_up_link, target: '_blank', class: classes
+    link_text = t('home.index.information.sign_up.button')
+    link_text = t('home.index.information.sign_up_closed.button') if sign_up_closed?
+
+    link_to link_text, sign_up_link, target: sign_up_link_target, class: classes
   end
 
   # options:
@@ -32,7 +49,10 @@ module HomeHelper
     classes = 'button radius'
     classes +=  ' small' if options[:small].present?
 
-    link_to t('home.index.sign_up'), sign_up_link, target: '_blank', class: classes
+    link_text = t('home.index.sign_up')
+    link_text = t('home.index.sign_up_closed') if sign_up_closed?
+
+    link_to link_text, sign_up_link, target: sign_up_link_target, class: classes
   end
 
   def team_members
